@@ -48,7 +48,10 @@ No Activity tracked this Week
 
 ---
 
-<img align="left" alt="vergissberlin's Github Stats" src="https://github-readme-stats.vercel.app/api?username=vergissberlin&show_icons=true&hide_border=true" />
+![Vergissberlin's github stats](https://github-readme-stats.vercel.app/api?username=vergissberlin&show_icons=true&hide_border=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vergissberlin)
+
 
 [website]: https://andrelademann.de
 [twitter]: https://twitter.com/vergissberlin
