@@ -43,11 +43,11 @@ Git Config   1 min           ░░░░░░░░░░░░░░░░░
 
 ### 📕 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [Netresearch Extensions auf GitHub verfügbar]( https://www.netresearch.de/?tx_news_pi1%5Bnews%5D=528&cHash=4464863f764a973b8082b2152f287f82 )
-- [Wir unterstützen den Leipziger Tischtennis Firmen-Cup]( https://www.netresearch.de/?tx_news_pi1%5Bnews%5D=527&cHash=990f610c04454cd12cb85a8ff9e515d9 )
-- [Webinar von Acquia & Netresearch]( https://www.netresearch.de/?tx_news_pi1%5Bnews%5D=525&cHash=ee8091dd6c2d9b9a7af908c8a8b913dd )
-- [Video-Tutorials für Kunden und Kollegen]( https://www.netresearch.de/?tx_news_pi1%5Bnews%5D=524&cHash=a9344684d2b32b58256780e149678a5b )
-- [Akeneo 4.0 bringt frischen Wind in die Community]( https://www.netresearch.de/?tx_news_pi1%5Bnews%5D=518&cHash=93866e9c8c06fd98ef0f4fd3ca784392 )
+- [Continuous delivery with Docker](https://medium.com/@andre.lademann/continuous-delivery-with-docker-91e3ed8188ad?source=rss-25031e672016------2)
+- [Hi! Thank you for your introduction.](https://medium.com/@andre.lademann/hi-thank-you-for-your-introduction-d001b24c5173?source=rss-25031e672016------2)
+- [Release notes for Docker - dockerized applications and its services](https://medium.com/blugento/release-notes-for-docker-dockerized-applications-and-its-services-4c92b254ab2?source=rss-25031e672016------2)
+- [Hi Doug! Thank you for your response!](https://medium.com/@andre.lademann/hi-doug-thank-you-for-your-response-ab71c2a3a387?source=rss-25031e672016------2)
+- [Reverse proxies and CDN as a service for Magento](https://medium.com/blugento/reverse-proxies-and-cdn-as-a-service-for-magento-4b0ad0d77b1?source=rss-25031e672016------2)
 <!-- BLOG-POST-LIST:END -->
 
 ---
