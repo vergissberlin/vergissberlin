@@ -33,6 +33,9 @@ Git Config   4 mins          ░░░░░░░░░░░░░░░░░
 ```
 <!--END_SECTION:waka-->
 
+<!-- START_SECTION:codestats -->
+<!-- END_SECTION:codestats -->
+
 ---
 
 ### 📺 Latest YouTube Videos

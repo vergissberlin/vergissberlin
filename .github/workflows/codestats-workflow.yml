@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: vergissberlin/codestats-readme@master
         with:
-          USERNAME_CODESTATS: vergissberlin
+          CODESTATS_USERNAME: vergissberlin
           SHOW_TITLE: true
           SHOW_LINK: true
