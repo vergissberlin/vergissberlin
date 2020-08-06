@@ -1,4 +1,4 @@
-name: CodeStats Readme
+name: CodeStats – README
 
 on:
   workflow_dispatch:
