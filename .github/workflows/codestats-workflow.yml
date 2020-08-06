@@ -14,3 +14,5 @@ jobs:
       - uses: vergissberlin/codestats-readme@master
         with:
           USERNAME_CODESTATS: vergissberlin
+          SHOW_TITLE: true
+          SHOW_LINK: true
