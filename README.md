@@ -10,6 +10,8 @@
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=vergissberlin&repo=resume&hide_border=true)](https://github.com/vergissberlin/resume)
 
+---
+
 ### Connect with me
 
 [<img align="left" hspace="12" alt="vergissberlin.cocdm" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
@@ -56,7 +58,6 @@ Git Config   4 mins          ░░░░░░░░░░░░░░░░░
 
 ![Vergissberlin's github stats](https://github-readme-stats.vercel.app/api?username=vergissberlin&show_icons=true&hide_border=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vergissberlin&show_icons=true&hide_border=true)
 
 
 [website]: https://andrelademann.de
