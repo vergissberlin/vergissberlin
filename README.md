@@ -61,8 +61,6 @@ Git Config   4 mins          ░░░░░░░░░░░░░░░░░
 
 ![Vergissberlin's github stats](https://github-readme-stats.vercel.app/api?username=vergissberlin&show_icons=true&hide_border=true)
 
-
-
 [website]: https://andrelademann.de
 [twitter]: https://twitter.com/vergissberlin
 [youtube]: https://youtube.com/vergissberlin
