@@ -20,3 +20,5 @@ jobs:
           SHOW_TITLE: true
           SHOW_LINK: true
           DEBUG: true
+      - run: ls -lisah
+      - run: ls -lisa /home/runner/work/vergissberlin
