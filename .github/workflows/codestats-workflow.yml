@@ -3,19 +3,25 @@ name: CodeStats – README
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 12am UTC
     - cron: '0 0 * * *'
 
 jobs:
-  update-readme:
-    name: Update this repo's README
+  build:
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Update readme
-        uses: vergissberlin/codestats-readme@master
-        with:
-          CODESTATS_USERNAME: vergissberlin
-          SHOW_TITLE: true
-          SHOW_LINK: true
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+        CODESTATS_USERNAME: vergissberlin
+        SHOW_TITLE: true
+        SHOW_LINK: true
+    - run: yarn
+    - run: node index.js
