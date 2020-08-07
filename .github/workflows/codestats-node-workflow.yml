@@ -19,7 +19,9 @@ jobs:
       - run: echo "Dirk" >> README.md
       - run: ls -lisah
       - run: git status
-      - run: git commit -m"Add a Dirk"
+      - run: git config --global user.email "vergissberlin@googlemail.com"
+      - run: git config --global user.name "ALA"
+      - run: git commit -am"Add a Dirk"
       - run: git remote -v
       - run: git push
       - run: env
