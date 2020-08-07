@@ -16,10 +16,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - run: yarn
+      - run: echo "Dirk" >> README.md
       - run: ls -lisah
+      - run: git status
+      - run: git commit -m"Add a Dirk"
+      - run: git remote -v
+      - run: git push
       - run: env
-      - run: node index.js
         env:
           CODESTATS_USERNAME: vergissberlin
           SHOW_TITLE: true
