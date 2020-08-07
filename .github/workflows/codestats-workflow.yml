@@ -22,3 +22,4 @@ jobs:
           SHOW_TITLE: true
           SHOW_LINK: true
           DEBUG: true
+          README_FILE: /home/runner/work/vergissberlin/vergissberlin/README.md
