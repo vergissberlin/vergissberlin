@@ -19,3 +19,4 @@ jobs:
           CODESTATS_USERNAME: vergissberlin
           SHOW_TITLE: true
           SHOW_LINK: true
+          DEBUG: true
