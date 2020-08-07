@@ -65,3 +65,7 @@ Git Config   4 mins          ░░░░░░░░░░░░░░░░░
 [twitter]: https://twitter.com/vergissberlin
 [youtube]: https://youtube.com/vergissberlin
 [linkedin]: https://linkedin.com/in/andre-lademann/
+
+---
+
+![CodeStats – README](https://github.com/vergissberlin/vergissberlin/workflows/CodeStats%20%E2%80%93%20README/badge.svg)
