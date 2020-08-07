@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - run: ls -lisah
-      - run: ls -lisa /home/runner/work/vergissberlin
+      - run: ls -lisa /home/runner/work/vergissberlin/vergissberlin
       - name: Update readme
         uses: vergissberlin/codestats-readme@master
         with:
