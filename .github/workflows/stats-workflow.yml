@@ -17,3 +17,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: vergissberlin
           SHOW_TITLE: false
+          DEBUG: true
