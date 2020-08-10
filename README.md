@@ -69,4 +69,3 @@ HTML         25 mins         ░░░░░░░░░░░░░░░░░
 ---
 
 ![CodeStats – README](https://github.com/vergissberlin/vergissberlin/workflows/CodeStats%20%E2%80%93%20README/badge.svg)
-Dirk
