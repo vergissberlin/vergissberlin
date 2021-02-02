@@ -51,9 +51,7 @@ Bash    2 mins          ▓░░░░░░░░░░░░░░░░░�
 ### 📕 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 - [Continuous delivery with Docker](https://medium.com/@andre.lademann/continuous-delivery-with-docker-91e3ed8188ad?source=rss-25031e672016------2)
-- [Hi! Thank you for your introduction.](https://medium.com/@andre.lademann/hi-thank-you-for-your-introduction-d001b24c5173?source=rss-25031e672016------2)
 - [Release notes for Docker - dockerized applications and its services](https://medium.com/blugento/release-notes-for-docker-dockerized-applications-and-its-services-4c92b254ab2?source=rss-25031e672016------2)
-- [Hi Doug! Thank you for your response!](https://medium.com/@andre.lademann/hi-doug-thank-you-for-your-response-ab71c2a3a387?source=rss-25031e672016------2)
 - [Reverse proxies and CDN as a service for Magento](https://medium.com/blugento/reverse-proxies-and-cdn-as-a-service-for-magento-4b0ad0d77b1?source=rss-25031e672016------2)
 <!-- BLOG-POST-LIST:END -->
 
