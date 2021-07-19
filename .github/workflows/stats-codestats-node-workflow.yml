@@ -1,4 +1,4 @@
-name: CodeStats NodeJS – README
+name: Stats – CodeStats Node
 
 on:
   workflow_dispatch:

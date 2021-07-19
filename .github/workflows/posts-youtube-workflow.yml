@@ -1,4 +1,4 @@
-name: YouTube Videos – Latest
+name: "Posts – YouTube: Latest"
 on:
   schedule:
     # Runs every hour

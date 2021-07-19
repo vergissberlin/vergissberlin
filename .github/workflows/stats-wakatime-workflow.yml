@@ -1,4 +1,4 @@
-name: Update stats
+name: Stats – Wakatime
 
 on:
   schedule:

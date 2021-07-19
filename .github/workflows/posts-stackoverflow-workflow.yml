@@ -1,7 +1,6 @@
-name: Stack overflow posts
+name: Posts – stack overflow
 on:
   schedule:
-    # Runs every hour
     - cron: '0 * * * *'
   workflow_dispatch:
 
