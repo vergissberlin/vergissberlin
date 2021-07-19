@@ -13,3 +13,7 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://medium.com/feed/@andre.lademann" # https://dev.to/feed/vergissberlin
+          commit_message: "Updated readme with the latest Medium blog posts."
+          committer_username: André lademann
+          committer_email: vergissberlin@googlemail.com
+
