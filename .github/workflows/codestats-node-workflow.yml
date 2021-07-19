@@ -19,8 +19,8 @@ jobs:
       - run: ls -lisah
       - run: git status
       - run: git config --global user.email "vergissberlin@googlemail.com"
-      - run: git config --global user.name "ALA"
-      - run: git commit -am"Add a Dirk"
+      - run: git config --global user.name "André Lademann"
+      - run: git commit -am"Add one more Dirk"
       - run: git remote -v
       - run: git push
       - run: env
