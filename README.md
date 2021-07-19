@@ -40,10 +40,7 @@ CSV          24 mins         █▒░░░░░░░░░░░░░░░
 
 ### 📺 Latest YouTube Videos
 <!-- YOUTUBE:START -->
-- [AIDA Guestportal Plugins](https://www.youtube.com/watch?v=7vU7JHyaHzk)
-- [AIDA Guestportal Template Extension](https://www.youtube.com/watch?v=Apzdbva7RP0)
-- [Blugento  - Design Customiser](https://www.youtube.com/watch?v=UPuw77kYkqk)
-- [swagger nodejs - easy to use for micro services](https://www.youtube.com/watch?v=besBSUVCSBc)
+- [Softwareentwickler / Programmierer](https://www.youtube.com/watch?v=cSDDq-QNq0I)
 <!-- YOUTUBE:END -->
 
 ---
