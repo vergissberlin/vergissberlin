@@ -56,6 +56,7 @@ Docker       24 mins         ▓░░░░░░░░░░░░░░░░
 <!-- BLOG-POST-LIST:END -->
 
 <!-- STACKOVERFLOW:START -->
+- [Answer by André Lademann for It is possible to login the user into chrome extension using the local storage of our website?](https://stackoverflow.com/questions/68436609/it-is-possible-to-login-the-user-into-chrome-extension-using-the-local-storage-o/68436704#68436704)
 <!-- STACKOVERFLOW:END -->
 
 ---
