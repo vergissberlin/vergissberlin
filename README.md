@@ -40,6 +40,7 @@ CSV          24 mins         █▒░░░░░░░░░░░░░░░
 
 ### 📺 Latest YouTube Videos
 <!-- YOUTUBE:START -->
+- [TYPO3 vs Wordpress – Login, Nutzerverwaltung und das Rechtesystem](https://www.youtube.com/watch?v=dHiqvumfEzc)
 - [Softwareentwickler / Programmierer](https://www.youtube.com/watch?v=cSDDq-QNq0I)
 <!-- YOUTUBE:END -->
 
