@@ -49,11 +49,16 @@ Docker       24 mins         ▓░░░░░░░░░░░░░░░░
 ---
 
 ### 📕 Latest Blog Posts
+
+#### Medium
+
 <!-- BLOG-POST-LIST:START -->
 - [Continuous delivery with Docker](https://medium.com/@andre.lademann/continuous-delivery-with-docker-91e3ed8188ad?source=rss-25031e672016------2)
 - [Release notes for Docker - dockerized applications and its services](https://medium.com/blugento/release-notes-for-docker-dockerized-applications-and-its-services-4c92b254ab2?source=rss-25031e672016------2)
 - [Reverse proxies and CDN as a service for Magento](https://medium.com/blugento/reverse-proxies-and-cdn-as-a-service-for-magento-4b0ad0d77b1?source=rss-25031e672016------2)
 <!-- BLOG-POST-LIST:END -->
+
+#### stack overflow
 
 <!-- STACKOVERFLOW:START -->
 - [Answer by André Lademann for It is possible to login the user into chrome extension using the local storage of our website?](https://stackoverflow.com/questions/68436609/it-is-possible-to-login-the-user-into-chrome-extension-using-the-local-storage-o/68436704#68436704)
@@ -71,4 +76,3 @@ Docker       24 mins         ▓░░░░░░░░░░░░░░░░
 ---
 
 [![CodeStats – README](https://github.com/vergissberlin/vergissberlin/workflows/CodeStats%20%E2%80%93%20README/badge.svg)](https://codestats.net/users/vergissberlin)
-
