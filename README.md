@@ -5,7 +5,7 @@
 - 🔭 I’m currently working on a vuejs 3 project!
 - 🌱 I’m currently learning game development. 🤣
 - 👯 I’m looking to collaborate with other developers and ux experts.
-- 🥅 2020 Goals: Contribute more to Open Source projects.
+- 🥅 2021 goals: Contribute more to Open Source projects.
 - ⚡ Fun fact: I love to fly drones.
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=vergissberlin&repo=resume&hide_border=true)](https://github.com/vergissberlin/resume)
