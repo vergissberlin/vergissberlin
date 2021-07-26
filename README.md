@@ -51,11 +51,11 @@ YAML         26 mins         █▒░░░░░░░░░░░░░░░
 #### Medium & Hashnode
 
 <!-- BLOG-POST-LIST:START -->
+- [Kiss 😘](https://blog.andrelademann.de/kiss)
 - [Job with a daily dose of goose bumps](https://blog.andrelademann.de/job-with-a-daily-dose-of-goose-bumps)
 - [Okay let's blog](https://blog.andrelademann.de/okay-lets-blog)
 - [Continuous delivery with Docker](https://medium.com/@andre.lademann/continuous-delivery-with-docker-91e3ed8188ad?source=rss-25031e672016------2)
 - [Release notes for Docker - dockerized applications and its services](https://medium.com/blugento/release-notes-for-docker-dockerized-applications-and-its-services-4c92b254ab2?source=rss-25031e672016------2)
-- [Reverse proxies and CDN as a service for Magento](https://medium.com/blugento/reverse-proxies-and-cdn-as-a-service-for-magento-4b0ad0d77b1?source=rss-25031e672016------2)
 <!-- BLOG-POST-LIST:END -->
 
 #### Stack Overflow
