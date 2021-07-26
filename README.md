@@ -48,7 +48,7 @@ YAML         26 mins         █▒░░░░░░░░░░░░░░░
 
 ### 📕 Latest Blog Posts
 
-#### Medium
+#### Medium & Hashnode
 
 <!-- BLOG-POST-LIST:START -->
 - [Job with a daily dose of goose bumps](https://blog.andrelademann.de/job-with-a-daily-dose-of-goose-bumps)
@@ -58,7 +58,7 @@ YAML         26 mins         █▒░░░░░░░░░░░░░░░
 - [Reverse proxies and CDN as a service for Magento](https://medium.com/blugento/reverse-proxies-and-cdn-as-a-service-for-magento-4b0ad0d77b1?source=rss-25031e672016------2)
 <!-- BLOG-POST-LIST:END -->
 
-#### stack overflow
+#### Stack Overflow
 
 <!-- STACKOVERFLOW:START -->
 - [Answer by André Lademann for It is possible to login the user into chrome extension using the local storage of our website?](https://stackoverflow.com/questions/68436609/it-is-possible-to-login-the-user-into-chrome-extension-using-the-local-storage-o/68436704#68436704)
