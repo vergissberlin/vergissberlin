@@ -51,11 +51,11 @@ YAML         26 mins         █▒░░░░░░░░░░░░░░░
 #### Medium & Hashnode
 
 <!-- BLOG-POST-LIST:START -->
-- [Kiss 😘](https://blog.andrelademann.de/kiss)
+- [KISS 😘 – design pattern](https://blog.andrelademann.de/kiss)
+- [DRY 🍸️ – design pattern](https://blog.andrelademann.de/dry-design-pattern)
 - [Job with a daily dose of goose bumps](https://blog.andrelademann.de/job-with-a-daily-dose-of-goose-bumps)
 - [Okay let's blog](https://blog.andrelademann.de/okay-lets-blog)
 - [Continuous delivery with Docker](https://medium.com/@andre.lademann/continuous-delivery-with-docker-91e3ed8188ad?source=rss-25031e672016------2)
-- [Release notes for Docker - dockerized applications and its services](https://medium.com/blugento/release-notes-for-docker-dockerized-applications-and-its-services-4c92b254ab2?source=rss-25031e672016------2)
 <!-- BLOG-POST-LIST:END -->
 
 #### Stack Overflow
