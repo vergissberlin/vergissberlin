@@ -12,7 +12,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://medium.com/feed/@andre.lademann,https://blog.andrelademann.de/rss.xml" # https://dev.to/feed/vergissberlin
+          feed_list: "https://blog.andrelademann.de/rss.xml"
+          comment_tag_name: "HASHNODE"
           commit_message: "Updated readme with the latest Medium blog posts."
           committer_username: André lademann
           committer_email: vergissberlin@googlemail.com

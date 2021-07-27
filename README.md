@@ -48,15 +48,15 @@ YAML         26 mins         █▒░░░░░░░░░░░░░░░
 
 ### 📕 Latest Blog Posts
 
-#### Medium & Hashnode
+#### Medium
 
-<!-- BLOG-POST-LIST:START -->
-- [KISS 😘 – design pattern](https://blog.andrelademann.de/kiss)
-- [DRY 🍸️ – design pattern](https://blog.andrelademann.de/dry-design-pattern)
-- [Job with a daily dose of goose bumps](https://blog.andrelademann.de/job-with-a-daily-dose-of-goose-bumps)
-- [Okay let's blog](https://blog.andrelademann.de/okay-lets-blog)
-- [Continuous delivery with Docker](https://medium.com/@andre.lademann/continuous-delivery-with-docker-91e3ed8188ad?source=rss-25031e672016------2)
-<!-- BLOG-POST-LIST:END -->
+<!-- MEDIUM:START -->
+<!-- MEDIUM:END -->
+
+#### Hashnode
+
+<!-- HASHNODE:START -->
+<!-- HASHNODE:END -->
 
 #### Stack Overflow
 
