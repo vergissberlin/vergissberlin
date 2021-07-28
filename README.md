@@ -59,6 +59,7 @@ YAML         26 mins         █▒░░░░░░░░░░░░░░░
 #### Hashnode
 
 <!-- HASHNODE:START -->
+- [Pair programming](https://blog.andrelademann.de/pair-programming)
 - [DRY 🍸️ – design pattern](https://blog.andrelademann.de/dry-design-pattern)
 - [KISS 😘 – design pattern](https://blog.andrelademann.de/kiss)
 - [Job with a daily dose of goose bumps](https://blog.andrelademann.de/job-with-a-daily-dose-of-goose-bumps)
