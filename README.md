@@ -59,11 +59,11 @@ YAML         26 mins         █▒░░░░░░░░░░░░░░░
 #### Hashnode
 
 <!-- HASHNODE:START -->
+- [VS Code includes GitHub CoPilot  and I just love it!](https://blog.andrelademann.de/vs-code-includes-github-copilot-and-i-just-love-it)
 - [Pair programming](https://blog.andrelademann.de/pair-programming)
 - [DRY 🍸️ – design pattern](https://blog.andrelademann.de/dry-design-pattern)
 - [KISS 😘 – design pattern](https://blog.andrelademann.de/kiss)
 - [Job with a daily dose of goose bumps](https://blog.andrelademann.de/job-with-a-daily-dose-of-goose-bumps)
-- [Okay let's blog](https://blog.andrelademann.de/okay-lets-blog)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
