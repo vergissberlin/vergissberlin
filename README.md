@@ -1,11 +1,11 @@
 # Hi there, I'm André - aka [vergissberlin][website] 👋
 
-## I'm a Husband, Father, Developer, and Teacher!
+## I'm a husband, father, developer, and teacher!
 
-- 🔭 I’m currently working on a vuejs 3 project!
-- 🌱 I’m currently learning game development. 🤣
+- 🔭 I’m currently working on a NodeRED node!
+- 🌱 I’m currently learning cloud architechture. 🤣
 - 👯 I’m looking to collaborate with other developers and ux experts.
-- 🥅 2021 goals: Contribute more to Open Source projects.
+- 🥅 2022 goals: Find new oportunities.
 - ⚡ Fun fact: I love to fly drones.
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=vergissberlin&repo=resume&hide_border=true)](https://github.com/vergissberlin/resume)
