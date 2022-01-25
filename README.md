@@ -73,6 +73,12 @@ Bash       1 hr 48 mins    █▓░░░░░░░░░░░░░░░�
 - [Answer by André Lademann for It is possible to login the user into chrome extension using the local storage of our website?](https://stackoverflow.com/questions/68436609/it-is-possible-to-login-the-user-into-chrome-extension-using-the-local-storage-o/68436704#68436704)
 <!-- STACKOVERFLOW:END -->
 
+#### TTN LoRaWAN network Leipzig
+
+- [Warum eigentlich LoRa in Leipzig?](https://www.thethingsnetwork.org/community/leipzig/post/warum-eigentlich-lora-in-leipzig)
+- [Digitalisierung der Stadt Leipzig - Zukunftsaussichten aus dem Jahre 2020](https://www.thethingsnetwork.org/community/leipzig/post/digitalisierung-der-stadt-leipzig-zukunftsaussichten-aus-dem-jahre-2020)
+- [Smart Cities - Let's begin!](https://www.thethingsnetwork.org/community/leipzig/post/smart-cities-lets-begin-join-the-ttn-meetup-in-leipzig)
+
 ---
 
 ![Vergissberlin's github stats](https://github-readme-stats.vercel.app/api?username=vergissberlin&show_icons=true&hide_border=true)
