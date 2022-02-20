@@ -25,8 +25,6 @@
 
 <!--START_SECTION:waka-->
 ```text
-Total: 2 hrs 55 mins
-
 Other        6 hrs 27 mins   █████████████████▒░░░░░░░   68.89 % 
 Bash         49 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.80 % 
 JSON         36 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.53 % 
