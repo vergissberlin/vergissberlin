@@ -58,11 +58,11 @@ Other      4 hrs 33 mins   █████████████████�
 #### Hashnode
 
 <!-- HASHNODE:START -->
+- [Using MJML to improve your email in Node-RED](https://blog.andrelademann.de/using-mjml-to-improve-your-email-in-node-red)
 - [Benchmark - What is the quickest way to copy files?](https://blog.andrelademann.de/benchmark-what-is-the-quickest-way-to-copy-files)
 - [The reversed .gitignore](https://blog.andrelademann.de/the-reversed-gitignore)
 - [Trainees in the IT industry in Germany](https://blog.andrelademann.de/trainees-in-the-it-industry-in-germany)
 - [VS Code includes GitHub&#39;s CoPilot  and I just love it!](https://blog.andrelademann.de/vs-code-includes-githubs-copilot-and-i-just-love-it)
-- [Pair programming](https://blog.andrelademann.de/pair-programming)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
