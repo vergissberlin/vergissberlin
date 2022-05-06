@@ -58,11 +58,11 @@ Other        6 hrs 21 mins   █████████████████
 #### Hashnode
 
 <!-- HASHNODE:START -->
+- [Gamification has a lot of potential for companies!](https://blog.andrelademann.de/gamification-has-a-lot-of-potential-for-companies)
 - [Using MJML to improve your email in Node-RED](https://blog.andrelademann.de/using-mjml-to-improve-your-email-in-node-red)
 - [Benchmark - What is the quickest way to copy files?](https://blog.andrelademann.de/benchmark-what-is-the-quickest-way-to-copy-files)
 - [The reversed .gitignore](https://blog.andrelademann.de/the-reversed-gitignore)
 - [Trainees in the IT industry in Germany](https://blog.andrelademann.de/trainees-in-the-it-industry-in-germany)
-- [VS Code includes GitHub&#39;s CoPilot  and I just love it!](https://blog.andrelademann.de/vs-code-includes-githubs-copilot-and-i-just-love-it)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
