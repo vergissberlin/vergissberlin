@@ -26,11 +26,7 @@
 <!--START_SECTION:waka-->
 
 ```text
-HTML         10 mins         ███████████████▒░░░░░░░░░   60.72 %
-TypeScript   6 mins          █████████▓░░░░░░░░░░░░░░░   38.37 %
-JSON         0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.82 %
-yarn.lock    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
-YAML         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
