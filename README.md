@@ -38,7 +38,7 @@ Other                      1 hr 54 mins    ███▒░░░░░░░░�
 
 ### Skill overview
 
-![My Code::Stats history graph](https://codestats-readme.wegfan.cn/history-graph/vergissberlin?height=144&history_days=144)
+![My Code::Stats history graph](https://codestats-readme.wegfan.cn/history-graph/vergissberlin?height=144&history_days=30)
 
 ---
 
