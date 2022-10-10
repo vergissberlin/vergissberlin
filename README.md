@@ -8,7 +8,7 @@
 - 🥅 2022 goals: Find new oportunities.
 - ⚡ Fun fact: I love to fly drones.
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=vergissberlin&repo=resume&hide_border=true)](https://github.com/vergissberlin/resume)
+![vergissberlins's Code::Stats stats](https://codestats-readme.vercel.app/api?username=vergissberlin&show_icons=true&theme=nightowl)
 
 ---
 
@@ -38,7 +38,9 @@ Other                      1 hr 54 mins    ███▒░░░░░░░░�
 
 ### Skill overview
 
-![My Code::Stats history graph](https://codestats-readme.wegfan.cn/history-graph/vergissberlin?height=144&history_days=30)
+[![History](https://codestats-readme.vercel.app/api/history/?username=vergissberlin&layout=horizontal)](https://github.com/vergissberlin)
+[![Top Langs](https://codestats-readme.vercel.app/api/top-langs/?username=vergissberlin)](https://github.com/vergissberlin)
+
 
 ---
 
