@@ -35,6 +35,11 @@ Other                      1 hr 54 mins    ███▒░░░░░░░░�
 <!-- START_SECTION:codestats -->
 <!-- END_SECTION:codestats -->
 
+
+### Skill overview
+
+![My Code::Stats history graph](https://codestats-readme.wegfan.cn/history-graph/vergissberlin?height=144)
+
 ---
 
 ### 📺 Latest YouTube Videos
