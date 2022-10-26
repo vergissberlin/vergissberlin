@@ -48,6 +48,7 @@ Other        28 hrs 2 mins   ████████████████▒
 
 ### 📺 Latest YouTube Videos
 <!-- YOUTUBE:START -->
+- [Wissensmanagement mit Obsidian](https://www.youtube.com/watch?v=NCIzKtO5chA)
 - [TYPO3 vs Wordpress – Login, Nutzerverwaltung und das Rechtesystem](https://www.youtube.com/watch?v=dHiqvumfEzc)
 - [Softwareentwickler / Programmierer](https://www.youtube.com/watch?v=cSDDq-QNq0I)
 <!-- YOUTUBE:END -->
