@@ -69,11 +69,11 @@ Other        35 hrs 21 mins  █████████████████
 #### Hashnode
 
 <!-- HASHNODE:START -->
+- [Custom fake data generator](https://blog.andrelademann.de/custom-fake-data-generator)
 - [Gamification has a lot of potential for companies!](https://blog.andrelademann.de/gamification-has-a-lot-of-potential-for-companies)
 - [Using MJML to improve your email in Node-RED](https://blog.andrelademann.de/using-mjml-to-improve-your-email-in-node-red)
 - [Benchmark - What is the quickest way to copy files?](https://blog.andrelademann.de/benchmark-what-is-the-quickest-way-to-copy-files)
 - [The reversed .gitignore](https://blog.andrelademann.de/the-reversed-gitignore)
-- [Trainees in the IT industry in Germany](https://blog.andrelademann.de/trainees-in-the-it-industry-in-germany)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
