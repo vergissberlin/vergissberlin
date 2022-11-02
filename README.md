@@ -1,9 +1,8 @@
 # Hi there, I'm André - aka [vergissberlin][website] 👋
 
-## I'm a husband, father, developer, and teacher!
+## I'm a father, developer, and teacher!
 
-- 🔭 I’m currently working on a NodeRED node!
-- 🌱 I’m currently learning cloud architechture. 🤣
+- 🌱 I’m currently dive into cloud architechture.
 - 👯 I’m looking to collaborate with other developers and ux experts.
 - 🥅 2022 goals: Find new oportunities.
 - ⚡ Fun fact: I love to fly drones.
