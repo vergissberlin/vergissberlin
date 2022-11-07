@@ -39,7 +39,7 @@ Other        23 hrs 19 mins  █████████████████
 
 [![History](https://codestats-readme.vercel.app/api/history/?username=vergissberlin&layout=horizontal)](https://codestats.net/users/vergissberlin)
 
-[![Top Langs](https://codestats-readme.vercel.app/api/top-langs/?username=vergissberlin)](https://codestats.net/users/vergissberlin))
+[![Top Langs](https://codestats-readme.vercel.app/api/top-langs/?username=vergissberlin)](https://codestats.net/users/vergissberlin)
 
 [More details](https://codestats.net/users/vergissberlin)
 
