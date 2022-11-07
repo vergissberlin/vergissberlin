@@ -35,11 +35,13 @@ Other        23 hrs 19 mins  █████████████████
 <!-- START_SECTION:codestats -->
 <!-- END_SECTION:codestats -->
 
-
 ### Skill overview
 
-[![History](https://codestats-readme.vercel.app/api/history/?username=vergissberlin&layout=horizontal)](https://github.com/vergissberlin)
-[![Top Langs](https://codestats-readme.vercel.app/api/top-langs/?username=vergissberlin)](https://github.com/vergissberlin)
+[![History](https://codestats-readme.vercel.app/api/history/?username=vergissberlin&layout=horizontal)]([https://github.com/vergissberlin](https://codestats.net/users/vergissberlin))
+[![Top Langs](https://codestats-readme.vercel.app/api/top-langs/?username=vergissberlin)]([https://github.com/vergissberlin](https://codestats.net/users/vergissberlin))
+
+[More details](https://codestats.net/users/vergissberlin)
+
 
 ---
 
