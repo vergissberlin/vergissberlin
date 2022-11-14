@@ -87,6 +87,25 @@ Other              26 hrs 14 mins  ███████████████
 - [Digitalisierung der Stadt Leipzig - Zukunftsaussichten aus dem Jahre 2020](https://www.thethingsnetwork.org/community/leipzig/post/digitalisierung-der-stadt-leipzig-zukunftsaussichten-aus-dem-jahre-2020)
 - [Smart Cities - Let's begin!](https://www.thethingsnetwork.org/community/leipzig/post/smart-cities-lets-begin-join-the-ttn-meetup-in-leipzig)
 
+## Work experience
+
+```mermaid
+gantt
+dateFormat  YYYY-MM
+title Work experience – André Lademann
+
+section Feelancer 
+NULLzuEINS Inh. André Lademann  :active,  des1, 2007-03, todayMarker
+
+section Angestellter
+Topedo Leipzig            :done, des1, 2007-03-01, 2008-02-01
+Freelancer                :done, des2, after des1, 2011-08-01
+Digitalwert (CTO)         :done, des3, after des2, 2y
+Falk Anayltics            :done, des4, after des3,  1y
+Netresearch               :active, des5, after des4, 9y
+
+```
+
 ---
 
 ![Vergissberlin's github stats](https://github-readme-stats.vercel.app/api?username=vergissberlin&show_icons=true&hide_border=true)
