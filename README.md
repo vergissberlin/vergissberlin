@@ -94,15 +94,20 @@ gantt
 	dateFormat YYYY-MM-DD
 	title      Work experience André Lademann
 
-section Feelancer 
-	NULLzuEINS Inh. André Lademann  :active,  free1, 2007-03, today
-
-section Angestellter
-	Topedo Leipzig    :done, emp1, 2007-03-01, 2008-02-01
-	Freelancer        :done, emp2, after emp1, 2011-08-01
-	Digitalwert (CTO) :done, emp3, after emp2, 2013-03-01
-	Falk Anayltics    :done, emp4, after emp3, 2013-09-01
-	Netresearch       :active, des5, after emp4, 2022-12-31
+	section Feelancer 
+		NULLzuEINS Inh. André Lademann  :active,  free1, 2007-03, today
+		click free1 href "https://nullzueins.com"
+	
+	section Angestellter
+		Topedo Leipzig    :done, emp1, 2007-03-01, 2008-02-01
+		Freelancer        :done, emp2, after emp1, 2011-08-01
+		Digitalwert (CTO) :done, emp3, after emp2, 2013-03-01
+		Falk Anayltics    :done, emp4, after emp3, 2013-09-01
+		Netresearch       :active, emp5, after emp4, 2022-12-31
+	
+		click emp3 href "https://torpedo-motor.com"
+		click emp3 href "https://digitalwert.de"
+		click emp5 href "https://netresearch.de"
 ```
 
 ---
