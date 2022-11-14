@@ -91,19 +91,18 @@ Other              26 hrs 14 mins  ███████████████
 
 ```mermaid
 gantt
-dateFormat  YYYY-MM
-title Work experience – André Lademann
+	dateFormat YYYY-MM-DD
+	title      Work experience André Lademann
 
 section Feelancer 
-NULLzuEINS Inh. André Lademann  :active,  free1, 2007-03, todayMarker
+	NULLzuEINS Inh. André Lademann  :active,  free1, 2007-03, today
 
 section Angestellter
-Topedo Leipzig            :done, des1, 2007-03-01, 2008-02-01
-Freelancer                :done, des2, after des1, 2011-08-01
-Digitalwert (CTO)         :done, des3, after des2, 2y
-Falk Anayltics            :done, des4, after des3,  1y
-Netresearch               :active, des5, after des4, todayMarker
-
+	Topedo Leipzig    :done, emp1, 2007-03-01, 2008-02-01
+	Freelancer        :done, emp2, after emp1, 2011-08-01
+	Digitalwert (CTO) :done, emp3, after emp2, 2013-03-01
+	Falk Anayltics    :done, emp4, after emp3, 2013-09-01
+	Netresearch       :active, des5, after emp4, 2022-12-31
 ```
 
 ---
