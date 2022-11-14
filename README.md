@@ -95,7 +95,7 @@ dateFormat  YYYY-MM
 title Work experience – André Lademann
 
 section Feelancer 
-NULLzuEINS Inh. André Lademann  :active,  des1, 2007-03, todayMarker
+NULLzuEINS Inh. André Lademann  :active,  free1, 2007-03, todayMarker
 
 section Angestellter
 Topedo Leipzig            :done, des1, 2007-03-01, 2008-02-01
