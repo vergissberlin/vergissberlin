@@ -102,7 +102,7 @@ Topedo Leipzig            :done, des1, 2007-03-01, 2008-02-01
 Freelancer                :done, des2, after des1, 2011-08-01
 Digitalwert (CTO)         :done, des3, after des2, 2y
 Falk Anayltics            :done, des4, after des3,  1y
-Netresearch               :active, des5, after des4, 9y
+Netresearch               :active, des5, after des4, todayMarker
 
 ```
 
