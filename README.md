@@ -4,8 +4,8 @@
 
 - 🌱 I’m currently dive into cloud architechture.
 - 👯 I’m looking to collaborate with other developers and ux experts.
-- 🥅 2022 goals: Find new oportunities.
-- ⚡ Fun fact: I love to fly drones.
+- 🥅 2023 goals: Find new oportunities.
+- ⚡ Fun fact: I love to fly drones and IoT!
 
 <!--
 ![vergissberlins's Code::Stats stats](https://codestats-readme.vercel.app/api?username=vergissberlin&show_icons=true&theme=nightowl)
@@ -40,6 +40,7 @@ TypeScript   14 mins         ▒░░░░░░░░░░░░░░░░
 <!-- START_SECTION:codestats -->
 <!-- END_SECTION:codestats -->
 
+<!--
 ### Skill overview
 
 [![History](https://codestats-readme.vercel.app/api/history/?username=vergissberlin&layout=horizontal)](https://codestats.net/users/vergissberlin)
@@ -47,6 +48,7 @@ TypeScript   14 mins         ▒░░░░░░░░░░░░░░░░
 [![Top Langs](https://codestats-readme.vercel.app/api/top-langs/?username=vergissberlin)](https://codestats.net/users/vergissberlin)
 
 [More details](https://codestats.net/users/vergissberlin)
+-->
 
 ---
 
