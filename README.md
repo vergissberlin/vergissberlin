@@ -110,11 +110,13 @@ gantt
 		Freelancer        :done, emp2, after emp1, 2011-08-01
 		Digitalwert (CTO) :done, emp3, after emp2, 2013-03-01
 		Falk Anayltics    :done, emp4, after emp3, 2013-09-01
-		Netresearch       :active, emp5, after emp4, 2022-12-31
+		Netresearch       :done, emp5, after emp4, 2023-02-28
+		Thinkport         :active, emp6, after emp5, 2023-03-01
 	
 		click emp3 href "https://torpedo-motor.com"
 		click emp3 href "https://digitalwert.de"
 		click emp5 href "https://netresearch.de"
+		click emp6 href "https://thinkport.digital"
 ```
 
 ---
