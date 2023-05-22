@@ -30,7 +30,7 @@
 
 🔭 And some **useful tools** like
 
-[![Mosqitto](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=Mosquitto&logoColor=white)](#)
+[![Mosqitto](https://img.shields.io/badge/Mosquitto-3C5280?style=for-the-badge&logo=mosquitto&logoColor=white)](#)
 [![Heroku](https://img.shields.io/badge/heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](#)
 [![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](#)
 [![Grafana](https://img.shields.io/badge/grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](#)
