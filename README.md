@@ -43,7 +43,7 @@
 📦 Checkout some of **my packages** published on
 
 [![Github](https://img.shields.io/badge/gh_packages-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vergissberlin?tab=packages)
-[![Npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~rajat19)
+[![Npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~vergissberlin)
 
 <!--
 ![vergissberlins's Code::Stats stats](https://codestats-readme.vercel.app/api?username=vergissberlin&show_icons=true&theme=nightowl)
