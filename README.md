@@ -15,7 +15,6 @@
 [![Typescript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
 [![PHP](https://img.shields.io/badge/php-777BB4?style=for-the-badge&logo=php&logoColor=white)](#)
 [![C++](https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
-[![GraphQL](https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white)](#)
 
 📀 **With Hands on** experience working with data stores like
 
@@ -24,7 +23,13 @@
 [![Mongo](https://img.shields.io/badge/mongo-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
 [![Redis](https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](#)
 [![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](#)
+
+📚 **Frameworks** I've worked with
+
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](#)
+[![GraphQL](https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white)](#)
+[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)](#)
+[![react native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)](#)
 
 <!--
 [![SQLite](https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](#) 
