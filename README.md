@@ -23,7 +23,9 @@
 [![Maria](https://img.shields.io/badge/maria-003545?style=for-the-badge&logo=mariadb&logoColor=white)](#)
 [![Mongo](https://img.shields.io/badge/mongo-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
 [![Redis](https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](#)
-[![InfluxDB](https://img.shields.io/badge/InflixDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](#)
+[![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](#)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](#)
+
 <!--
 [![SQLite](https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](#) 
 -->
