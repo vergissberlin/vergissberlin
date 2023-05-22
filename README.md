@@ -13,7 +13,8 @@
 
 [![Nodejs](https://img.shields.io/badge/node_js-339933?style=for-the-badge&logo=node.js&logoColor=white)](#)
 [![Typescript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
-[![PHP](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white)](#)
+[![PHP](https://img.shields.io/badge/php-777BB4?style=for-the-badge&logo=php&logoColor=white)](#)
+[![C++](https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
 [![GraphQL](https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white)](#)
 
 📀 **With Hands on** experience working with data stores like
@@ -21,8 +22,8 @@
 [![Mysql](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
 [![Maria](https://img.shields.io/badge/maria-003545?style=for-the-badge&logo=mariadb&logoColor=white)](#)
 [![Mongo](https://img.shields.io/badge/mongo-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
-[![Cassandra](https://img.shields.io/badge/cassandra-1287B1?style=for-the-badge&logo=apache-cassandra&logoColor=white)](#)
 [![Redis](https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](#)
+[![InfluxDB](https://img.shields.io/badge/InflixDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](#)
 <!--
 [![SQLite](https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](#) 
 -->
@@ -31,8 +32,8 @@
 
 [![Mosqitto](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=Mosquitto&logoColor=white)](#)
 [![Heroku](https://img.shields.io/badge/heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](#)
+[![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](#)
 [![Grafana](https://img.shields.io/badge/grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](#)
-[![TICK](https://img.shields.io/badge/kibana-005571?style=for-the-badge&logo=TICK&logoColor=white)](#)
 [![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#) 
 
 <!--
@@ -43,8 +44,6 @@
 
 [![Github](https://img.shields.io/badge/gh_packages-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vergissberlin?tab=packages)
 [![Npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~rajat19)
-
-
 
 <!--
 ![vergissberlins's Code::Stats stats](https://codestats-readme.vercel.app/api?username=vergissberlin&show_icons=true&theme=nightowl)
