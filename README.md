@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently dive into cloud architechture.
 - 👯 I’m looking to collaborate with other developers and ux experts.
-- 🥅 2023 goals: Take hands on Clojure and Rust.
+- 🥅 2023 goals: Take hands on Go and Azure.
 - ⚡ Fun fact: I love to fly drones and IoT!
 
 ---
