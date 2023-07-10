@@ -18,4 +18,5 @@ jobs:
           committer_username: André lademann
           committer_email: vergissberlin@googlemail.com
           disable_item_validation: true
+          max_post_count: 10
 
