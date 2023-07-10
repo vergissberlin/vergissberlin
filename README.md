@@ -146,8 +146,8 @@ gantt
 	title      Work experience André Lademann
 
 	section Feelancer 
-		NULLzuEINS Inh. André Lademann  :active,  free1, 2007-03, today
-		click free1 href "https://nullzueins.com"
+		NULLzuEINS Inh. André Lademann  :active,  nze, 2007-03, today
+		click nze href "https://nullzueins.com"
 	
 	section Angestellter
 		Topedo Leipzig :done, emp1, 2007-03-01, 2008-02-01
@@ -155,7 +155,7 @@ gantt
 		Digitalwert    :done, emp3, after emp2, 2013-03-01
 		Falk Anayltics :done, emp4, after emp3, 2013-09-01
 		Netresearch    :done, emp5, after emp4, 2023-02-28
-		Thinkport      :active, emp6, after emp5, 2023-03-01
+		Thinkport      :active, emp6, after emp5, today
 	
 		click emp3 href "https://torpedo-motor.com"
 		click emp3 href "https://digitalwert.de"
