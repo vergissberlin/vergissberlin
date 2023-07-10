@@ -134,10 +134,6 @@ YAML          2 hrs 4 mins    █░░░░░░░░░░░░░░░�
 
 #### TTN LoRaWAN network Leipzig
 
-- [Warum eigentlich LoRa in Leipzig?](https://www.thethingsnetwork.org/community/leipzig/post/warum-eigentlich-lora-in-leipzig)
-- [Digitalisierung der Stadt Leipzig - Zukunftsaussichten aus dem Jahre 2020](https://www.thethingsnetwork.org/community/leipzig/post/digitalisierung-der-stadt-leipzig-zukunftsaussichten-aus-dem-jahre-2020)
-- [Smart Cities - Let's begin!](https://www.thethingsnetwork.org/community/leipzig/post/smart-cities-lets-begin-join-the-ttn-meetup-in-leipzig)
-
 <!-- TTN:START -->
 - [#006 Bastelrunde LoRaWAN - Refactoring und Usability](https://www.thethingsnetwork.org/community/leipzig/post/006-bastelrunde-lorawan-refactoring-und-usability)
 - [LoRaWAN MeetUp - #005 Bastelrunde](https://www.thethingsnetwork.org/community/leipzig/post/lorawan-meetup-005-bastelrunde)
