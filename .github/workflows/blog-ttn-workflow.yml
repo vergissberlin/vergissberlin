@@ -17,4 +17,5 @@ jobs:
           commit_message: "Updated readme with the latest TTN blog posts."
           committer_username: André lademann
           committer_email: vergissberlin@googlemail.com
+          disable_item_validation: true
 
