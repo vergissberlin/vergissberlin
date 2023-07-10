@@ -146,7 +146,7 @@ gantt
 	title      Work experience André Lademann
 
 	section Feelancer 
-		NULLzuEINS Inh. André Lademann  :done,  nze, 2007-03, today
+		NULLzuEINS Inh. André Lademann  :done,  nze, 2007-03, 2023-03-01
 		click nze href "https://nullzueins.com"
 	
 	section Angestellter
