@@ -6,7 +6,7 @@ on:
 
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts from Hashnode.
+    name: Update this repo's README with latest blog posts from TTN.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,7 +14,7 @@ jobs:
         with:
           feed_list: "# http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0"
           comment_tag_name: "TTN"
-          commit_message: "Updated readme with the latest Medium blog posts."
+          commit_message: "Updated readme with the latest TTN blog posts."
           committer_username: André lademann
           committer_email: vergissberlin@googlemail.com
 
