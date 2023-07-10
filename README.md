@@ -138,6 +138,12 @@ YAML          2 hrs 4 mins    █░░░░░░░░░░░░░░░�
 - [Digitalisierung der Stadt Leipzig - Zukunftsaussichten aus dem Jahre 2020](https://www.thethingsnetwork.org/community/leipzig/post/digitalisierung-der-stadt-leipzig-zukunftsaussichten-aus-dem-jahre-2020)
 - [Smart Cities - Let's begin!](https://www.thethingsnetwork.org/community/leipzig/post/smart-cities-lets-begin-join-the-ttn-meetup-in-leipzig)
 
+<!-- TTN:START -->
+<!-- TTN:END -->
+<!--
+http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0
+-->
+
 ## Work experience
 
 ```mermaid
