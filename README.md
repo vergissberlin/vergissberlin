@@ -135,7 +135,7 @@ YAML          2 hrs 4 mins    █░░░░░░░░░░░░░░░�
 #### TTN LoRaWAN network Leipzig
 
 <!-- TTN:START -->
-- [#006 Bastelrunde LoRaWAN - Refactoring und Usability](https://www.thethingsnetwork.org/community/leipzig/post/006-bastelrunde-lorawan-refactoring-und-usability)
+- [LoRaWAN MeetUp - #006 Bastelrunde](https://www.thethingsnetwork.org/community/leipzig/post/lorawan-meetup-006-bastelrunde)
 - [LoRaWAN MeetUp - #005 Bastelrunde](https://www.thethingsnetwork.org/community/leipzig/post/lorawan-meetup-005-bastelrunde)
 - [LoRaWAN MeetUp - #004 Bastelrunde](https://www.thethingsnetwork.org/community/leipzig/post/lorawan-meetup-004-bastelrunde)
 - [LoRaWAN MeetUp - #003 Bastelrunde](https://www.thethingsnetwork.org/community/leipzig/post/lorawan-meetup-003-bastelrunde)
