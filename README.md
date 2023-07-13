@@ -18,6 +18,7 @@
 
 📀 **With Hands on** experience working with data stores like
 
+[![Go](https://img.shields.io/badge/go-5dc9e2?style=for-the-badge&logo=go&logoColor=white)](#)
 [![Mysql](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
 [![Maria](https://img.shields.io/badge/maria-003545?style=for-the-badge&logo=mariadb&logoColor=white)](#)
 [![Mongo](https://img.shields.io/badge/mongo-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
