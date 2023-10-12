@@ -136,11 +136,11 @@ JavaScript       18 mins         ▒░░░░░░░░░░░░░░�
 #### TTN LoRaWAN network Leipzig
 
 <!-- TTN:START -->
+- [#009 Bastelrunde mit dem Oszillografen](https://www.thethingsnetwork.org/community/leipzig/post/009-bastelrunde-mit-dem-oszillografen)
 - [#008 Bastelrunde - Generischer Himmel](https://www.thethingsnetwork.org/community/leipzig/post/008-bastelrunde-generischer-himmel)
 - [#007 Bastelrunde in der Heltec Hell](https://www.thethingsnetwork.org/community/leipzig/post/007-bastelrunde-in-der-heltec-hell)
 - [LoRaWAN MeetUp - #006 Bastelrunde](https://www.thethingsnetwork.org/community/leipzig/post/lorawan-meetup-006-bastelrunde)
 - [LoRaWAN MeetUp - #005 Bastelrunde](https://www.thethingsnetwork.org/community/leipzig/post/lorawan-meetup-005-bastelrunde)
-- [LoRaWAN MeetUp - #004 Bastelrunde](https://www.thethingsnetwork.org/community/leipzig/post/lorawan-meetup-004-bastelrunde)
 <!-- TTN:END -->
 <!--
 http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0
