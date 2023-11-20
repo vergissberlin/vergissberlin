@@ -2,10 +2,10 @@
 
 ## I'm a father, developer, and teacher!
 
-- 🌱 I’m currently dive into cloud architechture.
+- 🌱 I am currently immersing myself in the depths of LoRaWAN.
 - 👯 I’m looking to collaborate with other developers and ux experts.
-- 🥅 2023 goals: Take hands on Go and Azure.
-- ⚡ Fun fact: I love to fly drones and IoT!
+- 🥅 2024 goals: Improve skills on Dart and Azure.
+- ⚡ Fun fact: [Siegmud Jähn](https://de.wikipedia.org/wiki/Sigmund_J%C3%A4hn) was my neighbor!
 
 ---
 
