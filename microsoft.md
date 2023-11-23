@@ -9,6 +9,22 @@ ___________________________________________________________
 TotalXP 34250 | Modules 21 | LearningPaths 2 | Challanges 0
 ```
 
+
+
+
+**Level 7, 34250 XP**
+
+```
+Level 7 32300    ████████████▒░░░░░░░░░░░░   48499  Level 8
+___________________________________________________________
+
+Achivements:
+    TotalXP 34250
+    Modules 21
+    LearningPaths 2
+```
+
+
 https://learn.microsoft.com/api/achievements/xp/8ec84703-8b42-4a66-913b-bff959992c54
 ```json
 {
