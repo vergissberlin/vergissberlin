@@ -1,12 +1,15 @@
 
 ☁️ Microsoft Learn Statistic 
-```
-Level 7    32,000    ████████████▒░░░░░░░░░░░░ 38,000   49.08 %
-Badges     12
-```
 
+**Level 7**
+
+```
+Level 7  32300 ████████████▒░░░░░░░░░░░░ 48499  Level 8
+TotalXP 34250 | Modules 21 | LearningPaths 2 | Challanges 0
+```
 
 https://learn.microsoft.com/api/achievements/xp/8ec84703-8b42-4a66-913b-bff959992c54
+```json
 {
     "docsId": "8ec84703-8b42-4a66-913b-bff959992c54",
     "totalXp": 34250,
@@ -27,4 +30,4 @@ https://learn.microsoft.com/api/achievements/xp/8ec84703-8b42-4a66-913b-bff95999
         "Special": 0
     }
 }
-
+```
