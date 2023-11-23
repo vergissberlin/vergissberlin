@@ -1,7 +1,7 @@
 
 ☁️ Microsoft Learn Statistic 
 
-**Level 7**
+**Level 7, 34250 XP**
 
 ```
 Level 7 32300    ████████████▒░░░░░░░░░░░░   48499  Level 8
