@@ -18,7 +18,7 @@ TotalXP 34250 | Modules 21 | LearningPaths 2 | Challanges 0
 Level 7 32300    ████████████▒░░░░░░░░░░░░   48499  Level 8
 
 Achivements:
-+ TotalXP      34250
++ TotalXP        34250
 + Modules        21
 + LearningPaths  2
 ```
