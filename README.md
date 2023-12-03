@@ -137,7 +137,7 @@ JSON             51 mins         ▒░░░░░░░░░░░░░░�
 #### TTN LoRaWAN network Leipzig
 
 <!-- TTN:START -->
-- [#006 Bastelrunde - Refactoring und Usability im IOT Umfeld](https://www.thethingsnetwork.org/community/leipzig/post/006-bastelrunde-refactoring-und-usability-im-iot-umfeld)
+- [#011 Bastelrunde - Refactoring bis der Code glänzt](https://www.thethingsnetwork.org/community/leipzig/post/011-bastelrunde-refactoring-bis-der-code-gl%C3%A4nzt)
 - [#010 Bastelrunde - Funksignale abfangen und interpretieren](https://www.thethingsnetwork.org/community/leipzig/post/010-bastelrunde-funksignale-abfangen-und-interpretieren)
 - [#009 Bastelrunde - mit dem Oszillografen](https://www.thethingsnetwork.org/community/leipzig/post/009-bastelrunde-mit-dem-oszillografen)
 - [#008 Bastelrunde - Generischer Himmel](https://www.thethingsnetwork.org/community/leipzig/post/008-bastelrunde-generischer-himmel)
