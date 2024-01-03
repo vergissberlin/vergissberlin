@@ -137,11 +137,11 @@ JSON       0 secs          ░░░░░░░░░░░░░░░░░�
 #### TTN LoRaWAN network Leipzig
 
 <!-- TTN:START -->
+- [#012 Bastelrunde - GitHub Actions zur automatischen Erstellung von Binaries](https://www.thethingsnetwork.org/community/leipzig/post/012-bastelrunde-github-actions-zur-automatischen-erstellung-von-binaries)
 - [#011 Bastelrunde - Refactoring bis der Code glänzt](https://www.thethingsnetwork.org/community/leipzig/post/011-bastelrunde-refactoring-bis-der-code-gl%C3%A4nzt)
 - [#010 Bastelrunde - Funksignale abfangen und interpretieren](https://www.thethingsnetwork.org/community/leipzig/post/010-bastelrunde-funksignale-abfangen-und-interpretieren)
 - [#009 Bastelrunde - mit dem Oszillografen](https://www.thethingsnetwork.org/community/leipzig/post/009-bastelrunde-mit-dem-oszillografen)
 - [#008 Bastelrunde - Generischer Himmel](https://www.thethingsnetwork.org/community/leipzig/post/008-bastelrunde-generischer-himmel)
-- [#007 Bastelrunde - in der Heltec Hell](https://www.thethingsnetwork.org/community/leipzig/post/007-bastelrunde-in-der-heltec-hell)
 <!-- TTN:END -->
 <!--
 http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0
