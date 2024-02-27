@@ -71,6 +71,8 @@
 
 ### 📊 This week I spent my time on
 
+[![wakatime](https://wakatime.com/badge/user/e47700b1-b714-4086-acd9-7979081706dc.svg)](https://wakatime.com/@e47700b1-b714-4086-acd9-7979081706dc)
+
 <!--START_SECTION:waka-->
 
 ```txt
