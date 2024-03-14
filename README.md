@@ -123,11 +123,11 @@ YAML           48 mins         ▒░░░░░░░░░░░░░░░�
 #### Hashnode
 
 <!-- HASHNODE:START -->
+- [Let&#39;s get serial](https://blog.andrelademann.de/lets-get-serial)
 - [What is pubspec.lock for](https://blog.andrelademann.de/what-is-pubspeclock-for)
 - [Custom ChatGPT with OpenAI API](https://blog.andrelademann.de/custom-chatgpt-with-openai-api)
 - [Custom fake data generator](https://blog.andrelademann.de/custom-fake-data-generator)
 - [Gamification has a lot of potential for companies!](https://blog.andrelademann.de/gamification-has-a-lot-of-potential-for-companies)
-- [Using MJML to improve your email in Node-RED](https://blog.andrelademann.de/using-mjml-to-improve-your-email-in-node-red)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
