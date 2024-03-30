@@ -76,11 +76,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other                         21 hrs 32 mins  ██████████████░░░░░░░░░░░   55.37 %
-Dart                          14 hrs 14 mins  █████████░░░░░░░░░░░░░░░░   36.61 %
-Markdown                      1 hr 6 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.83 %
-Application Resource Bundle   41 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.76 %
-JSON                          37 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.62 %
+Other                         23 hrs 21 mins  ██████████████▒░░░░░░░░░░   57.14 %
+Dart                          13 hrs          ████████░░░░░░░░░░░░░░░░░   31.83 %
+Markdown                      1 hr 6 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.73 %
+JSON                          57 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.35 %
+Application Resource Bundle   38 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.58 %
 ```
 
 <!--END_SECTION:waka-->
