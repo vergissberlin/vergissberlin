@@ -139,11 +139,11 @@ Makefile                      37 mins         ▒░░░░░░░░░░�
 #### TTN LoRaWAN network Leipzig
 
 <!-- TTN:START -->
+- [#017 Bastelrunde - Mit dem eigenem Protokoll arbeiten](https://www.thethingsnetwork.org/community/leipzig/post/017-bastelrunde-mit-dem-eigenem-protokoll-arbeiten)
 - [#016 Bastelrunde - Konfigurationsdaten mit dem Browser bearbeiten](https://www.thethingsnetwork.org/community/leipzig/post/016-bastelrunde-konfigurationsdaten-mit-dem-browser-bearbeiten)
 - [#015 Bastelrunde - Konfigurationsdateien schreiben und lesen](https://www.thethingsnetwork.org/community/leipzig/post/015-bastelrunde-konfigurationsdateien-schreiben-und-lesen)
 - [#014 Bastelrunde - Wir sprechen seriell](https://www.thethingsnetwork.org/community/leipzig/post/014-bastelrunde-wir-sprechen-seriell)
 - [#013 Bastelrunde - Arduino über eine Webseite installieren und Konfigurieren](https://www.thethingsnetwork.org/community/leipzig/post/013-bastelrunde-arduino-%C3%BCber-eine-webseite-installieren-und-konfigurieren)
-- [#012 Bastelrunde - GitHub Actions zur automatischen Erstellung von Binaries](https://www.thethingsnetwork.org/community/leipzig/post/012-bastelrunde-github-actions-zur-automatischen-erstellung-von-binaries)
 <!-- TTN:END -->
 <!--
 http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0
