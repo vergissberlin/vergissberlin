@@ -76,11 +76,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other                         4 hrs 28 mins   █████████████▓░░░░░░░░░░░   55.02 %
-YAML                          1 hr 57 mins    ██████░░░░░░░░░░░░░░░░░░░   24.11 %
-Dart                          57 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.82 %
-JSON                          30 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.21 %
-Text                          8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.76 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
