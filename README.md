@@ -76,11 +76,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other                         6 hrs 19 mins   ██████████████████▒░░░░░░   73.88 %
-Dart                          1 hr 28 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.34 %
-JSON                          30 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.98 %
-YAML                          11 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.20 %
-Application Resource Bundle   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.28 %
+Other   2 hrs           █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
