@@ -76,11 +76,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other             19 hrs 31 mins  ████████████▒░░░░░░░░░░░░   49.59 %
-Terraform         4 hrs 30 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.46 %
-Dart              4 hrs 14 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.77 %
-Markdown          3 hrs 55 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.99 %
-TypeScript        2 hrs 17 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.84 %
+Other             24 hrs 7 mins   ██████████████░░░░░░░░░░░   55.76 %
+Dart              4 hrs 33 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.54 %
+Terraform         4 hrs 30 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.43 %
+Markdown          4 hrs 5 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.46 %
+Java              1 hr 40 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.86 %
 ```
 
 <!--END_SECTION:waka-->
