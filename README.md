@@ -139,11 +139,11 @@ YAML             32 mins         ▒░░░░░░░░░░░░░░�
 #### TTN LoRaWAN network Leipzig
 
 <!-- TTN:START -->
+- [#023 Bastelrunde - Usability](https://www.thethingsnetwork.org/community/leipzig/post/023-bastelrunde-usability)
 - [#022 Bastelrunde - Die State Machine](https://www.thethingsnetwork.org/community/leipzig/post/022-bastelrunde-die-state-machine)
 - [#021 Bastelrunde - Ein eigener Web Serial Flasher Teil 2](https://www.thethingsnetwork.org/community/leipzig/post/021-bastelrunde-ein-eigener-web-serial-flasher-teil-2)
 - [#020 Bastelrunde - Ein eigener Web Serial Flasher](https://www.thethingsnetwork.org/community/leipzig/post/020-bastelrunde-ein-eigener-web-serial-flasher)
 - [#019 Bastelrunde - Versionierung auf Edge-Geräten](https://www.thethingsnetwork.org/community/leipzig/post/019-bastelrunde-versionierung-auf-edge-ger%C3%A4ten)
-- [#018 Bastelrunde - Code streicheln bis er glänzt](https://www.thethingsnetwork.org/community/leipzig/post/018-bastelrunde-code-streicheln-bis-er-gl%C3%A4nzt)
 <!-- TTN:END -->
 <!--
 http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0
