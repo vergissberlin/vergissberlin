@@ -76,11 +76,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other                      28 hrs 29 mins  ██████████████░░░░░░░░░░░   56.06 %
-Go                         6 hrs 24 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.62 %
-Markdown                   5 hrs 14 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.30 %
-HTTP Request               3 hrs 27 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.82 %
-Protocol Buffer            1 hr 58 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.90 %
+Other             29 hrs 5 mins   ██████████████▒░░░░░░░░░░   57.67 %
+Markdown          6 hrs 44 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.37 %
+Go                5 hrs 47 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.50 %
+HTTP Request      3 hrs 3 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.05 %
+Astro             1 hr 43 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.43 %
 ```
 
 <!--END_SECTION:waka-->
