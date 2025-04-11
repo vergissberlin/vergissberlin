@@ -76,11 +76,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other                 19 hrs 46 mins  █████████████▒░░░░░░░░░░░   53.66 %
-Markdown              9 hrs 42 mins   ██████▓░░░░░░░░░░░░░░░░░░   26.32 %
-YAML                  3 hrs 20 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.05 %
-Terraform             3 hrs 5 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 %
-Git Codeowners File   38 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.76 %
+Other                 21 hrs          █████████████░░░░░░░░░░░░   52.37 %
+Markdown              12 hrs 15 mins  ███████▓░░░░░░░░░░░░░░░░░   30.58 %
+YAML                  3 hrs 7 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.80 %
+Terraform             1 hr 43 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.32 %
+Git Codeowners File   38 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.61 %
 ```
 
 <!--END_SECTION:waka-->
