@@ -4,7 +4,7 @@
 
 - 🌱 I am currently immersing myself in the depths of LoRaWAN.
 - 👯 I’m looking to collaborate with other developers and ux experts.
-- 🥅 2025 goals: Improve skills on Golang and Kubernetes.
+- 🥅 2025 goals: Improve skills on AI and Kubernetes.
 - ⚡ Fun fact: [Siegmud Jähn](https://de.wikipedia.org/wiki/Sigmund_J%C3%A4hn) was my neighbor!
 
 ---
