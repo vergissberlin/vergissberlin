@@ -139,11 +139,11 @@ Markdown     1 hr 39 mins    ▓░░░░░░░░░░░░░░░░
 #### TTN LoRaWAN network Leipzig
 
 <!-- TTN:START -->
-- [#027 Ehrenamtliche Entwickler:innen](https://www.thethingsnetwork.org/community/leipzig/post/027-ehrenamtliche-entwicklerinnen)
+- [#029 Bastelrunde - Agentic in der Open Source Entwicklung](https://www.thethingsnetwork.org/community/leipzig/post/029-bastelrunde-agentic-in-der-open-source-entwicklung)
+- [#028 Bastelrunde - Pizza Driven Development](https://www.thethingsnetwork.org/community/leipzig/post/028-bastelrunde-pizza-driven-development)
+- [#027 Bastelrunde - Ehrenamtliche Entwickler:innen](https://www.thethingsnetwork.org/community/leipzig/post/027-bastelrunde-ehrenamtliche-entwicklerinnen)
 - [#026 Bastelrunde - Deep Dive](https://www.thethingsnetwork.org/community/leipzig/post/026-bastelrunde-deep-dive)
 - [#025 Bastelrunde - Proof Of Concept](https://www.thethingsnetwork.org/community/leipzig/post/025-bastelrunde-proof-of-concept)
-- [#024 Bastelrunde - Konzept auf dem Prüfstand](https://www.thethingsnetwork.org/community/leipzig/post/024-bastelrunde-konzept-auf-dem-pr%C3%BCfstand)
-- [#023 Bastelrunde - Usability](https://www.thethingsnetwork.org/community/leipzig/post/023-bastelrunde-usability)
 <!-- TTN:END -->
 <!--
 http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0
