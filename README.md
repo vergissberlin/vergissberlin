@@ -76,9 +76,9 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Other      21 hrs 7 mins   ███████████████████▒░░░░░   76.72 %
-Markdown   4 hrs 25 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.06 %
-YAML       1 hr 59 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   07.22 %
+Other      17 hrs 5 mins   ███████████████████░░░░░░   75.81 %
+Markdown   3 hrs 27 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.37 %
+YAML       1 hr 59 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   08.82 %
 ```
 
 <!--END_SECTION:waka-->
