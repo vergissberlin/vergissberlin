@@ -1,6 +1,6 @@
 # Hi there, I'm André - aka [vergissberlin][website] 👋
 
-## I'm a father, developer, and teacher!
+## I'm a father, developer, and consultant!
 
 - 🌱 I am currently immersing myself in the depths of Observability.
 - 👯 I’m looking to collaborate.
