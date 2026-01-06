@@ -2,9 +2,9 @@
 
 ## I'm a father, developer, and teacher!
 
-- 🌱 I am currently immersing myself in the depths of LoRaWAN.
-- 👯 I’m looking to collaborate with other developers and ux experts.
-- 🥅 2025 goals: Improve skills on AI and Kubernetes.
+- 🌱 I am currently immersing myself in the depths of Observability.
+- 👯 I’m looking to collaborate.
+- 🥅 2026 goals: Grow with kieks.me GbR and improve skills on AI and Observability.
 - ⚡ Fun fact: [Siegmud Jähn](https://de.wikipedia.org/wiki/Sigmund_J%C3%A4hn) was my neighbor!
 
 ---
