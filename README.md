@@ -1,9 +1,9 @@
 # Hi there, I'm André - aka [vergissberlin][website] 👋
 
-## I'm a father, developer, and consultant!
+## I'm a father, developer, and consultant! 
 
-- 🌱 I am currently immersing myself in the depths of Observability.
-- 👯 I’m looking to collaborate.
+- 🌱 I am currently immersing myself in the depths of Observability. 
+- 👯 I'm looking to collaborate. 
 - 🥅 2026 goals: Grow with kieks.me GbR and improve skills on AI and Observability.
 - ⚡ Fun fact: [Siegmud Jähn](https://de.wikipedia.org/wiki/Sigmund_J%C3%A4hn) was my neighbor!
 
@@ -15,10 +15,10 @@
 [![Typescript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
 [![PHP](https://img.shields.io/badge/php-777BB4?style=for-the-badge&logo=php&logoColor=white)](#)
 [![C++](https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
+[![Go](https://img.shields.io/badge/go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](#)
 
 📀 **With Hands on** experience working with data stores like
 
-[![Go](https://img.shields.io/badge/go-5dc9e2?style=for-the-badge&logo=go&logoColor=white)](#)
 [![Mysql](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
 [![Maria](https://img.shields.io/badge/maria-003545?style=for-the-badge&logo=mariadb&logoColor=white)](#)
 [![Mongo](https://img.shields.io/badge/mongo-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
@@ -39,11 +39,16 @@
 
 🔭 And some **useful tools** like
 
+[![Kubernetes](https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](#)
+[![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)](#)
+[![Solace](https://img.shields.io/badge/Solace-00C895?style=for-the-badge&logo=solace&logoColor=white)](#)
+[![Google Apigee](https://img.shields.io/badge/Google_Apigee-FF4400?style=for-the-badge&logo=google&logoColor=white)](#)
+[![Grafana](https://img.shields.io/badge/grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](#)
 [![Mosqitto](https://img.shields.io/badge/Mosquitto-3C5280?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)](#)
 [![Heroku](https://img.shields.io/badge/heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](#)
 [![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](#)
-[![Grafana](https://img.shields.io/badge/grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](#)
-[![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#) 
 
 <!--
 -->
@@ -55,14 +60,14 @@
 [![Npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~vergissberlin)
 
 <!--
-![vergissberlins's Code::Stats stats](https://codestats-readme.vercel.app/api?username=vergissberlin&show_icons=true&theme=nightowl)
+![vergissberlins's Code:: Stats stats](https://codestats-readme.vercel.app/api?username=vergissberlin&show_icons=true&theme=nightowl)
 -->
 
 ---
 
 ### 💁‍♂️ Connect with me
 
-[<img align="left" hspace="12" alt="vergissberlin.cocdm" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" hspace="12" alt="vergissberlin. cocdm" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" hspace="12" alt="vergissberlin | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" hspace="12" alt="vergissberlin | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img hspace="12" alt="vergissberlin | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
@@ -73,14 +78,14 @@
 
 [![wakatime](https://wakatime.com/badge/user/e47700b1-b714-4086-acd9-7979081706dc.svg)](https://wakatime.com/@e47700b1-b714-4086-acd9-7979081706dc)
 
-<!--START_SECTION:waka-->
+<!--START_SECTION: waka-->
 
 ```txt
-Other        29 hrs 29 mins  █████████████████████░░░░   84.56 %
-Markdown     3 hrs 54 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   11.20 %
-YAML         32 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.56 %
-Bash         26 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.24 %
-Git Config   23 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.12 %
+Other        24 hrs 59 mins  ███████████████████████░░   91.55 %
+YAML         32 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.99 %
+Markdown     32 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.98 %
+Bash         26 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.59 %
+Git Config   23 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.42 %
 ```
 
 <!--END_SECTION:waka-->
@@ -91,9 +96,9 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 <!--
 ### Skill overview
 
-[![History](https://codestats-readme.vercel.app/api/history/?username=vergissberlin&layout=horizontal)](https://codestats.net/users/vergissberlin)
+[![History](https://codestats-readme.vercel. app/api/history/? username=vergissberlin&layout=horizontal)](https://codestats.net/users/vergissberlin)
 
-[![Top Langs](https://codestats-readme.vercel.app/api/top-langs/?username=vergissberlin)](https://codestats.net/users/vergissberlin)
+[![Top Langs](https://codestats-readme.vercel. app/api/top-langs/? username=vergissberlin)](https://codestats.net/users/vergissberlin)
 
 [More details](https://codestats.net/users/vergissberlin)
 -->
@@ -114,7 +119,7 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 #### Medium
 
 <!-- MEDIUM:START -->
-- [Generate gigabytes of test data with JavaScript in high speed](https://medium.com/netresearch/generate-gigabytes-of-test-data-with-javascript-in-high-speed-98b990967824?source=rss-25031e672016------2)
+- [Generate gigabytes of test data with JavaScript in high speed](https://medium.com/netresearch/generate-gigabytes-of-test-data-with-javascript-in-high-speed-98b990967824? source=rss-25031e672016------2)
 - [Continuous delivery with Docker](https://medium.com/@andre.lademann/continuous-delivery-with-docker-91e3ed8188ad?source=rss-25031e672016------2)
 - [Release notes for Docker - dockerized applications and its services](https://medium.com/blugento/release-notes-for-docker-dockerized-applications-and-its-services-4c92b254ab2?source=rss-25031e672016------2)
 - [Reverse proxies and CDN as a service for Magento](https://medium.com/blugento/reverse-proxies-and-cdn-as-a-service-for-magento-4b0ad0d77b1?source=rss-25031e672016------2)
@@ -122,18 +127,18 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 
 #### Hashnode
 
-<!-- HASHNODE:START -->
+<!-- HASHNODE: START -->
 - [Let&#39;s get serial](https://blog.andrelademann.de/lets-get-serial)
 - [What is pubspec.lock for](https://blog.andrelademann.de/what-is-pubspeclock-for)
 - [Custom ChatGPT with OpenAI API](https://blog.andrelademann.de/custom-chatgpt-with-openai-api)
 - [Custom fake data generator](https://blog.andrelademann.de/custom-fake-data-generator)
-- [Gamification has a lot of potential for companies!](https://blog.andrelademann.de/gamification-has-a-lot-of-potential-for-companies)
+- [Gamification has a lot of potential for companies! ](https://blog.andrelademann.de/gamification-has-a-lot-of-potential-for-companies)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
 
 <!-- STACKOVERFLOW:START -->
-- [Answer by André Lademann for It is possible to login the user into chrome extension using the local storage of our website?](https://stackoverflow.com/questions/68436609/it-is-possible-to-login-the-user-into-chrome-extension-using-the-local-storage-o/68436704#68436704)
+- [Answer by André Lademann for It is possible to login the user into chrome extension using the local storage of our website? ](https://stackoverflow.com/questions/68436609/it-is-possible-to-login-the-user-into-chrome-extension-using-the-local-storage-o)
 <!-- STACKOVERFLOW:END -->
 
 #### TTN LoRaWAN network Leipzig
@@ -142,11 +147,11 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 - [#030 Bastelrunde - Datenschutz und Datensicherheit in OpenSource Projekten](https://www.thethingsnetwork.org/community/leipzig/post/030-bastelrunde-datenschutz-und-datensicherheit-in-opensource-projekten)
 - [#029 Bastelrunde - Agentic in der Open Source Entwicklung](https://www.thethingsnetwork.org/community/leipzig/post/029-bastelrunde-agentic-in-der-open-source-entwicklung)
 - [#028 Bastelrunde - Pizza Driven Development](https://www.thethingsnetwork.org/community/leipzig/post/028-bastelrunde-pizza-driven-development)
-- [#027 Bastelrunde - Ehrenamtliche Entwickler:innen](https://www.thethingsnetwork.org/community/leipzig/post/027-bastelrunde-ehrenamtliche-entwicklerinnen)
+- [#027 Bastelrunde - Ehrenamtliche Entwickler: innen](https://www.thethingsnetwork.org/community/leipzig/post/027-bastelrunde-ehrenamtliche-entwicklerinnen)
 - [#026 Bastelrunde - Deep Dive](https://www.thethingsnetwork.org/community/leipzig/post/026-bastelrunde-deep-dive)
 <!-- TTN:END -->
 <!--
-http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0
+http://createfeed.fivefilters.org/extract. php?url=https%3A%2F%2Fwww.thethingsnetwork.org%2Fcommunity%2Fleipzig%2Fposts&in_id_or_class=widget-card-story&max=5&order=document&guid=0
 -->
 
 ## Work experience
@@ -161,11 +166,11 @@ gantt
 		click nze href "https://nullzueins.com"
 	
 	section Angestellter
-		Topedo Leipzig :done, emp1, 2007-03-01, 2008-02-01
+		Topedo Leipzig : done, emp1, 2007-03-01, 2008-02-01
 		Freelancer     :done, emp2, after emp1, 2011-08-01
 		Digitalwert    :done, emp3, after emp2, 2013-03-01
-		Falk Anayltics :done, emp4, after emp3, 2013-09-01
-		Netresearch    :done, emp5, after emp4, 2023-02-28
+		Falk Anayltics : done, emp4, after emp3, 2013-09-01
+		Netresearch    : done, emp5, after emp4, 2023-02-28
 		Thinkport      :active, emp6, after emp5, today
 	
 		click emp3 href "https://torpedo-motor.com"
@@ -187,63 +192,5 @@ gantt
 ---
 
 <!--
-[![CodeStats – README](https://github.com/vergissberlin/vergissberlin/workflows/CodeStats%20%E2%80%93%20README/badge.svg)](https://codestats.net/users/vergissberlin)
+[![CodeStats – README](https://github. com/vergissberlin/vergissberlin/workflows/CodeStats%20%E2%80%93%20README/badge. svg)](https://codestats.net/users/vergissberlin)
 -->
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
-Dirk
