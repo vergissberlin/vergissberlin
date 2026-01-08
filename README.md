@@ -147,7 +147,7 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 - [#030 Bastelrunde - Datenschutz und Datensicherheit in OpenSource Projekten](https://www.thethingsnetwork.org/community/leipzig/post/030-bastelrunde-datenschutz-und-datensicherheit-in-opensource-projekten)
 - [#029 Bastelrunde - Agentic in der Open Source Entwicklung](https://www.thethingsnetwork.org/community/leipzig/post/029-bastelrunde-agentic-in-der-open-source-entwicklung)
 - [#028 Bastelrunde - Pizza Driven Development](https://www.thethingsnetwork.org/community/leipzig/post/028-bastelrunde-pizza-driven-development)
-- [#027 Bastelrunde - Ehrenamtliche Entwickler: innen](https://www.thethingsnetwork.org/community/leipzig/post/027-bastelrunde-ehrenamtliche-entwicklerinnen)
+- [#027 Bastelrunde - Ehrenamtliche Entwickler:innen](https://www.thethingsnetwork.org/community/leipzig/post/027-bastelrunde-ehrenamtliche-entwicklerinnen)
 - [#026 Bastelrunde - Deep Dive](https://www.thethingsnetwork.org/community/leipzig/post/026-bastelrunde-deep-dive)
 <!-- TTN:END -->
 <!--
