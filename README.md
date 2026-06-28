@@ -125,7 +125,7 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 - [Reverse proxies and CDN as a service for Magento](https://medium.com/blugento/reverse-proxies-and-cdn-as-a-service-for-magento-4b0ad0d77b1?source=rss-25031e672016------2)
 <!-- MEDIUM:END -->
 
-#### Hashnode
+#### Personal blog
 
 <!-- HASHNODE: START -->
 - [Let&#39;s get serial](https://blog.andrelademann.de/lets-get-serial)
