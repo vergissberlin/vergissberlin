@@ -127,7 +127,7 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 
 #### Personal blog
 
-<!-- HASHNODE: START -->
+<!-- HASHNODE:START -->
 - [Let&#39;s get serial](https://blog.andrelademann.de/lets-get-serial)
 - [What is pubspec.lock for](https://blog.andrelademann.de/what-is-pubspeclock-for)
 - [Custom ChatGPT with OpenAI API](https://blog.andrelademann.de/custom-chatgpt-with-openai-api)
