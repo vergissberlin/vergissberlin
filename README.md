@@ -96,9 +96,9 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 <!--
 ### Skill overview
 
-[![History](https://codestats-readme.vercel. app/api/history/? username=vergissberlin&layout=horizontal)](https://codestats.net/users/vergissberlin)
+[![History](https://codestats-readme.vercel.app/api/history/?username=vergissberlin&layout=horizontal)](https://codestats.net/users/vergissberlin)
 
-[![Top Langs](https://codestats-readme.vercel. app/api/top-langs/? username=vergissberlin)](https://codestats.net/users/vergissberlin)
+[![Top Langs](https://codestats-readme.vercel.app/api/top-langs/?username=vergissberlin)](https://codestats.net/users/vergissberlin)
 
 [More details](https://codestats.net/users/vergissberlin)
 -->
@@ -162,8 +162,10 @@ gantt
 	title      Work experience André Lademann
 
 	section Freelancer 
-		NULLzuEINS Inh. André Lademann  :done,  nze, 2007-03, 2023-03-01
+		NULLzuEINS Inh. André Lademann :active,  nze, 2007-03, 2026-12-31
+		kieks.me GbR  :active,  kieksme, 2025-03-01, 2026-12-31
 		click nze href "https://nullzueins.com"
+		click kieksme href "https://kieks.me"
 	
 	section Angestellter
 		Topedo Leipzig : done, emp1, 2007-03-01, 2008-02-01
@@ -171,7 +173,7 @@ gantt
 		Digitalwert    :done, emp3, after emp2, 2013-03-01
 		Falk Anayltics : done, emp4, after emp3, 2013-09-01
 		Netresearch    : done, emp5, after emp4, 2023-02-28
-		Thinkport      :active, emp6, after emp5, today
+		Thinkport      :active, emp6, after emp5, 2026-12-31
 	
 		click emp3 href "https://torpedo-motor.com"
 		click emp3 href "https://digitalwert.de"
