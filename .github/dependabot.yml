@@ -1,0 +1,26 @@
+version: 2
+
+# Keeps the SHA pins in .github/workflows current. Dependabot understands the
+# `uses: owner/repo@<sha> # vX.Y.Z` convention and rewrites both the SHA and the
+# trailing version comment.
+#
+# Not covered: `docker://` references inside workflows (see lint.yml).
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+      timezone: Europe/Berlin
+    commit-message:
+      prefix: chore(deps)
+    labels:
+      - dependencies
+      - github-actions
+    groups:
+      # One PR per week for everything rather than one per action — this
+      # repository has few enough dependencies that separate PRs are just noise.
+      actions:
+        patterns: ['*']

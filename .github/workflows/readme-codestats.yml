@@ -1,0 +1,56 @@
+name: README – Code::Stats
+
+# Fills the <!-- START_SECTION:codestats --> block in the profile README.
+#
+# The action used to be referenced as `vergissberlin/codestats-readme@master`.
+# That branch does not exist (the repository's default branch is `main`), so the
+# workflow could never resolve the action. `main` is not usable either: the
+# TypeScript rewrite there has no built `index.js`, which is what action.yml
+# points at. v0.1.0 is the last tag that ships a runnable bundle.
+
+on:
+  schedule:
+    # Staggered against the other README writers to avoid push races.
+    - cron: '20 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readme-codestats
+  cancel-in-progress: false
+
+jobs:
+  update-readme:
+    name: Update README Code::Stats section
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # the action commits the regenerated README itself
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Configure git identity
+        # The action commits via simple-git, which needs an identity in the
+        # runner's git config — there is no global default on the runner.
+        run: |
+          set -euo pipefail
+          git config user.name 'André Lademann'
+          git config user.email 'vergissberlin@googlemail.com'
+
+      - name: Update Code::Stats section
+        uses: vergissberlin/codestats-readme@6259fff7f6874911020b221a793c4ff301faa239 # v0.1.0
+        with:
+          CODESTATS_USERNAME: vergissberlin
+          SHOW_TITLE: true
+          SHOW_LINK: true
+          # DEBUG is deliberately unset: the action dumps the full process
+          # environment — including INPUT_GITHUB_TOKEN — into the run log
+          # whenever the variable is merely present, whatever its value.
+          #
+          # README_FILE is unset too: it defaulted to ./README.md anyway, and
+          # the previous hard-coded /home/runner/... path broke on any change to
+          # the runner layout.

@@ -1,0 +1,39 @@
+name: Lint
+
+# Catches the class of bug this repository has been shipping unnoticed:
+# nonexistent action refs, unknown inputs, bad cron syntax, unquoted shell
+# expansions in `run:` blocks.
+
+on:
+  push:
+    branches: [master]
+    paths: ['.github/**']
+  pull_request:
+    paths: ['.github/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lint-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  actionlint:
+    name: actionlint
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Run actionlint
+        # A container action, so it is pinned by tag rather than commit SHA.
+        # Acceptable here and only here: this job holds no secrets and runs with
+        # read-only permissions. Note that Dependabot does not track `docker://`
+        # refs inside workflows — bump this one by hand.
+        uses: docker://rhysd/actionlint:1.7.12
+        with:
+          args: -color
