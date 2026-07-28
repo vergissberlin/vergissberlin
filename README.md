@@ -183,7 +183,59 @@ gantt
 
 ---
 
-![Vergissberlin's github stats](https://github-readme-stats.vercel.app/api?username=vergissberlin&show_icons=true&hide_border=true)
+## GitHub activity
+
+<!--
+Replaces the previous github-readme-stats.vercel.app card. That project's shared
+public instance runs on one rate-limited GitHub token and answers "Maximum
+retries exceeded" for a good part of the day, which is why the card at the bottom
+of this profile was usually broken.
+
+Both hosts below are addressed with a `<picture>` per card, so the theme follows
+the reader's `prefers-color-scheme` (GitHub swaps the `<source>` itself).
+
+If either host turns flaky too, the summary cards can be pre-generated instead:
+the upstream Action `vn7n24fzkq/github-profile-summary-cards` writes the same
+five SVGs into a branch, which are then embedded from raw.githubusercontent.com
+with no third-party render at page load. See docs/automation.md.
+-->
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vergissberlin&amp;theme=github_dark" />
+    <img alt="GitHub profile summary of vergissberlin" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vergissberlin&amp;theme=github" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vergissberlin&amp;theme=github_dark" />
+    <img width="49%" alt="Repositories per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vergissberlin&amp;theme=github" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vergissberlin&amp;theme=github_dark" />
+    <img width="49%" alt="Most used languages by commit" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vergissberlin&amp;theme=github" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vergissberlin&amp;theme=github_dark" />
+    <img width="49%" alt="Commit, pull request and issue statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vergissberlin&amp;theme=github" />
+  </picture>
+  <picture>
+    <!-- utcOffset is static: 2 = CEST, the offset in effect for ~7 months a year in Leipzig. -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vergissberlin&amp;theme=github_dark&amp;utcOffset=2" />
+    <img width="49%" alt="Productive time of day" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vergissberlin&amp;theme=github&amp;utcOffset=2" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=vergissberlin&amp;theme=gitdimmed&amp;no-frame=true&amp;column=6&amp;margin-w=8&amp;margin-h=8" />
+    <img alt="GitHub profile trophies of vergissberlin" src="https://github-profile-trophy.vercel.app/?username=vergissberlin&amp;theme=flat&amp;no-frame=true&amp;column=6&amp;margin-w=8&amp;margin-h=8" />
+  </picture>
+</p>
 
 [website]: https://andrelademann.de
 [blog]: https://blog.andrelademann.de
