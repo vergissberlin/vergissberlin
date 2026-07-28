@@ -1,3 +1,11 @@
+# Microsoft Learn stats — layout scratchpad
+
+Draft variants for a possible `<!-- START_SECTION:mslearn -->` block in the
+profile README, plus the API response they would be rendered from. Nothing here
+is generated or wired up yet; see [automation.md](automation.md) for the
+sections that are.
+
+---
 
 ☁️ Microsoft Learn Statistic 
 **Level 7, 34250 XP**

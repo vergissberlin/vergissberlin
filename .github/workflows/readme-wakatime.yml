@@ -1,0 +1,40 @@
+name: README – WakaTime
+
+# Fills the <!--START_SECTION:waka--> block in the profile README.
+#
+# waka-readme writes through the GitHub REST API rather than a git push, so this
+# job needs no checkout — only `contents: write` on the token it is handed.
+
+on:
+  schedule:
+    # Staggered against the other README writers to avoid push races.
+    - cron: '40 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readme-wakatime
+  cancel-in-progress: false
+
+jobs:
+  update-readme:
+    name: Update README WakaTime section
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # the action commits the README through the API
+
+    steps:
+      - name: Update WakaTime section
+        uses: athul/waka-readme@8539bedb8277066fc9fe1b47d1f9b108eb866494 # v0.3.1
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # The job-scoped GITHUB_TOKEN replaces the long-lived secrets.GH_TOKEN
+          # PAT: it is minted per run, expires with the job, and is limited to
+          # the permissions declared above.
+          GH_TOKEN: ${{ github.token }}
+          SHOW_TITLE: false
+          # USERNAME was dropped upstream; the action derives the target from
+          # REPOSITORY, which defaults to this repository.

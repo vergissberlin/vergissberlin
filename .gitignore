@@ -1,5 +1,8 @@
+# This is a GitHub profile repository: nothing belongs in it unless it is
+# explicitly allowed. Ignore everything, then opt individual paths back in.
 /*
 
 !/.github
 !/.gitignore
 !/README.md
+!/docs

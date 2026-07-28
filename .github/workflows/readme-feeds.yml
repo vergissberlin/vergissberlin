@@ -1,0 +1,134 @@
+name: README – Feeds
+
+# Renders every RSS/Atom source into its own marker section of the profile README.
+#
+# Why one workflow instead of five:
+#   The previous setup ran five separate workflows on the same cron. They raced
+#   each other pushing to the same branch and produced up to five commits per
+#   day. Here a single job checks out once, lets every feed step write the file
+#   with `skip_commit: true`, and pushes one commit at the end.
+#
+# Why the SHA pins:
+#   These steps run with `contents: write`. A mutable tag on a third-party
+#   action is a write-access supply-chain risk, so every `uses:` is pinned to an
+#   immutable commit SHA with the human-readable version in the comment.
+#   Dependabot (.github/dependabot.yml) keeps the pins current.
+
+on:
+  schedule:
+    # 03:00 UTC — off the top of the hour, where GitHub's scheduler is busiest
+    # and runs get delayed the most.
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+# Least privilege by default; the one job that pushes opts in explicitly.
+permissions:
+  contents: read
+
+concurrency:
+  group: readme-feeds
+  cancel-in-progress: false
+
+jobs:
+  update-readme:
+    name: Update README feed sections
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # the final step commits the regenerated README
+
+    env:
+      COMMITTER_NAME: André Lademann
+      COMMITTER_EMAIL: vergissberlin@googlemail.com
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # Full history so the rebase in the final step is well defined.
+          # The repository is ~300 KB, so this costs nothing.
+          fetch-depth: 0
+
+      - name: Medium
+        uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # 1.9.6
+        # A single unreachable feed must not cost the other four their update.
+        continue-on-error: true
+        with:
+          comment_tag_name: MEDIUM
+          feed_list: 'https://medium.com/feed/@andre.lademann'
+          skip_commit: true
+          # Without this the action makes a dummy commit whenever it does not
+          # commit itself — which, with skip_commit, is every single run.
+          enable_keepalive: false
+          retry_count: 3
+          retry_wait_time: 10
+
+      - name: Personal blog (Hashnode)
+        uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # 1.9.6
+        # A single unreachable feed must not cost the other four their update.
+        continue-on-error: true
+        with:
+          comment_tag_name: HASHNODE
+          feed_list: 'https://blog.andrelademann.de/rss.xml'
+          skip_commit: true
+          enable_keepalive: false
+          retry_count: 3
+          retry_wait_time: 10
+
+      - name: Stack Overflow
+        uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # 1.9.6
+        # A single unreachable feed must not cost the other four their update.
+        continue-on-error: true
+        with:
+          comment_tag_name: STACKOVERFLOW
+          feed_list: 'https://stackoverflow.com/feeds/user/4604831'
+          skip_commit: true
+          enable_keepalive: false
+          retry_count: 3
+          retry_wait_time: 10
+
+      - name: YouTube
+        uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # 1.9.6
+        # A single unreachable feed must not cost the other four their update.
+        continue-on-error: true
+        with:
+          comment_tag_name: YOUTUBE
+          feed_list: 'https://www.youtube.com/feeds/videos.xml?playlist_id=PLPRoFzoEF7lxxghMnro3hr998OYtfzh2A'
+          skip_commit: true
+          enable_keepalive: false
+          retry_count: 3
+          retry_wait_time: 10
+
+      - name: TTN LoRaWAN Leipzig
+        uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # 1.9.6
+        # A single unreachable feed must not cost the other four their update.
+        continue-on-error: true
+        with:
+          comment_tag_name: TTN
+          # Scraped feed: items carry no publish date, hence the relaxed validation.
+          feed_list: 'https://fetchrss.com/rss/64abd179615f713b7c626df364abd1582475ab311b7c5fc2.xml'
+          disable_item_validation: true
+          max_post_count: 10
+          skip_commit: true
+          enable_keepalive: false
+          retry_count: 3
+          retry_wait_time: 10
+
+      - name: Commit and push README
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- README.md; then
+            echo 'README unchanged – nothing to commit.'
+            exit 0
+          fi
+
+          git config user.name "${COMMITTER_NAME}"
+          git config user.email "${COMMITTER_EMAIL}"
+          git add README.md
+          git commit -m 'chore(readme): update feed sections'
+
+          # The stats workflows write the same file on a staggered schedule;
+          # rebase first so a rare overlap does not fail the push.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
