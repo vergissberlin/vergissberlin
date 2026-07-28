@@ -1,0 +1,120 @@
+name: README – GitHub activity
+
+# Pre-generates the GitHub activity SVGs into the `profile-summary-cards` branch.
+#
+# Why not the Vercel hosts:
+#   github-profile-summary-cards.vercel.app and github-profile-trophy.vercel.app
+#   share public tokens / are often disabled, so the profile README showed
+#   "ERROR!!!" or blank images. Generating the SVGs here with this repository's
+#   token and embedding them from raw.githubusercontent.com removes that
+#   third-party render from page load.
+#
+# Why a separate branch:
+#   Keeps ~10 SVG files out of the profile README history and avoids racing the
+#   other README writers that commit to the default branch.
+
+on:
+  schedule:
+    # After the feed / stats writers (03:00–03:40 UTC).
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readme-github-activity
+  cancel-in-progress: false
+
+jobs:
+  generate-cards:
+    name: Pre-generate activity cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Switch to profile-summary-cards branch
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin profile-summary-cards >/dev/null 2>&1; then
+            git fetch origin profile-summary-cards
+            git checkout -B profile-summary-cards origin/profile-summary-cards
+          else
+            git checkout --orphan profile-summary-cards
+            git rm -rf --quiet . || true
+          fi
+
+      # Prefer an optional PAT (SUMMARY_GITHUB_TOKEN) when present — upstream
+      # needs it for full card coverage on some accounts. Fall back to the
+      # job-scoped token so the workflow runs out of the box.
+      - name: Generate light theme (github)
+        uses: vn7n24fzkq/github-profile-summary-cards@39ae44423d8702dfbd64c7f407278fdd7a1b0c75 # v0.11.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: vergissberlin
+          BRANCH_NAME: profile-summary-cards
+          UTC_OFFSET: '2'
+          AUTO_PUSH: false
+          THEME: github
+
+      # The action deletes profile-summary-card-output/ at the start of every
+      # run, so park the light theme aside before generating the dark one.
+      - name: Stash light theme
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/gpsc-light
+          mv profile-summary-card-output/github /tmp/gpsc-light/github
+
+      - name: Generate dark theme (github_dark)
+        uses: vn7n24fzkq/github-profile-summary-cards@39ae44423d8702dfbd64c7f407278fdd7a1b0c75 # v0.11.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: vergissberlin
+          BRANCH_NAME: profile-summary-cards
+          UTC_OFFSET: '2'
+          AUTO_PUSH: false
+          THEME: github_dark
+
+      - name: Merge light theme back
+        run: |
+          set -euo pipefail
+          mv /tmp/gpsc-light/github profile-summary-card-output/github
+
+      - name: Generate trophy (light)
+        uses: ryo-ma/github-profile-trophy@e3c89df995e92e67cdd4b2acaab9d974583dc1f7 # master
+        with:
+          username: vergissberlin
+          output_path: github-profile-trophy/trophy-flat.svg
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+          theme: flat
+
+      - name: Generate trophy (dark)
+        uses: ryo-ma/github-profile-trophy@e3c89df995e92e67cdd4b2acaab9d974583dc1f7 # master
+        with:
+          username: vergissberlin
+          output_path: github-profile-trophy/trophy-gitdimmed.svg
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+          theme: gitdimmed
+
+      - name: Commit and push cards
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # Drop anything unrelated that an orphan checkout may have left.
+          git add profile-summary-card-output github-profile-trophy
+          if git diff --cached --quiet; then
+            echo 'No card changes to commit.'
+            exit 0
+          fi
+          git commit -m 'chore: refresh GitHub activity cards'
+          git push -u origin profile-summary-cards
