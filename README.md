@@ -54,6 +54,19 @@
 
 [![Github](https://img.shields.io/badge/gh_packages-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vergissberlin?tab=packages)
 [![Npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~vergissberlin)
+[![RubyGems](https://img.shields.io/badge/rubygems-E9573F?style=for-the-badge&logo=ruby&logoColor=white)](https://rubygems.org/gems/vergissberlin)
+[![Homebrew](https://img.shields.io/badge/homebrew-FBB040?style=for-the-badge&logo=homebrew&logoColor=black)](https://github.com/vergissberlin/homebrew-tap)
+
+Install the useless `vergissberlin` CLI:
+
+```bash
+# RubyGems
+gem install vergissberlin
+
+# Homebrew (https://github.com/vergissberlin/homebrew-tap)
+brew tap vergissberlin/tap
+brew install vergissberlin
+```
 
 <!--
 ![vergissberlins's Code:: Stats stats](https://codestats-readme.vercel.app/api?username=vergissberlin&show_icons=true&theme=nightowl)

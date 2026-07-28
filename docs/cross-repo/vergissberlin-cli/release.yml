@@ -1,0 +1,74 @@
+name: Release Please
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+  packages: write
+  id-token: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
+
+    steps:
+      - uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+
+  publish:
+    needs: release-please
+    if: needs.release-please.outputs.release_created == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.release-please.outputs.tag_name }}
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+
+      - name: Configure gem credentials
+        run: |
+          mkdir -p ~/.gem
+          cat <<EOF > ~/.gem/credentials
+          ---
+          :rubygems_api_key: ${{ secrets.RUBYGEMS_API_KEY }}
+          :github: Bearer ${{ secrets.GITHUB_TOKEN }}
+          EOF
+          chmod 0600 ~/.gem/credentials
+
+      - name: Build gem
+        run: gem build vergissberlin.gemspec
+
+      - name: Publish to RubyGems.org
+        id: rubygems
+        continue-on-error: true
+        run: gem push vergissberlin-*.gem
+
+      - name: Publish to GitHub Packages
+        run: |
+          gem push --key github \
+            --host "https://rubygems.pkg.github.com/${{ github.repository_owner }}" \
+            vergissberlin-*.gem
+
+      - name: Fail if RubyGems publish failed
+        if: steps.rubygems.outcome == 'failure'
+        run: |
+          echo "::error::RubyGems.org publish failed (often gem ownership / API key). GitHub Packages may still have succeeded."
+          exit 1

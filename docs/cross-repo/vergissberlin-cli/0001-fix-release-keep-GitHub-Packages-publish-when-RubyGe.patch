@@ -1,0 +1,91 @@
+From dd68a3d0166fabdbdc1785fd6048aeadc6334aa7 Mon Sep 17 00:00:00 2001
+From: Cursor Agent <cursoragent@cursor.com>
+Date: Tue, 28 Jul 2026 14:10:18 +0000
+Subject: [PATCH] fix(release): keep GitHub Packages publish when RubyGems
+ fails
+
+Decouple RubyGems and GitHub Packages publish so Packages still
+receives the gem when RubyGems ownership/API key push is denied.
+Document Homebrew install and gem owner troubleshooting.
+---
+ .github/workflows/release.yml |  8 ++++++++
+ CONTRIBUTING.md               | 10 ++++++++++
+ README.md                     | 11 ++++++++++-
+ 3 files changed, 28 insertions(+), 1 deletion(-)
+
+diff --git a/.github/workflows/release.yml b/.github/workflows/release.yml
+index 798613f..f7088b5 100644
+--- a/.github/workflows/release.yml
++++ b/.github/workflows/release.yml
+@@ -57,6 +57,8 @@ jobs:
+         run: gem build vergissberlin.gemspec
+ 
+       - name: Publish to RubyGems.org
++        id: rubygems
++        continue-on-error: true
+         run: gem push vergissberlin-*.gem
+ 
+       - name: Publish to GitHub Packages
+@@ -64,3 +66,9 @@ jobs:
+           gem push --key github \
+             --host "https://rubygems.pkg.github.com/${{ github.repository_owner }}" \
+             vergissberlin-*.gem
++
++      - name: Fail if RubyGems publish failed
++        if: steps.rubygems.outcome == 'failure'
++        run: |
++          echo "::error::RubyGems.org publish failed (often gem ownership / API key). GitHub Packages may still have succeeded."
++          exit 1
+diff --git a/CONTRIBUTING.md b/CONTRIBUTING.md
+index 34e4161..16f1c14 100644
+--- a/CONTRIBUTING.md
++++ b/CONTRIBUTING.md
+@@ -102,6 +102,16 @@ For automatic publishing to RubyGems.org, add a repository secret named
+ 2. In the GitHub repo: Settings → Secrets and variables → Actions
+ 3. Add `RUBYGEMS_API_KEY` with the generated key
+ 
++The API key account must be an **owner** of the `vergissberlin` gem. If publish
++fails with “You do not have permission to push to this gem”, log in as the
++current owner (historically `ProgrammerQ`) and add the CI account:
++
++```bash
++gem owner vergissberlin --add <rubygems-handle-or-email>
++```
++
++Then re-run the failed **Release Please** workflow (or `gem push` locally once).
++
+ Never commit API keys. Rotate them regularly and limit permissions.
+ 
+ ### GitHub Packages (CI)
+diff --git a/README.md b/README.md
+index a46b888..116e267 100644
+--- a/README.md
++++ b/README.md
+@@ -11,7 +11,7 @@ Some hot useless stuff! Trust me, there is no functionality.
+ 
+ ### For End Users
+ 
+-**RubyGems.org** (default):
++**RubyGems.org** (default Ruby path):
+ 
+ ```ruby
+ gem "vergissberlin"
+@@ -23,6 +23,15 @@ bundle install
+ gem install vergissberlin
+ ```
+ 
++**Homebrew** ([vergissberlin/homebrew-tap](https://github.com/vergissberlin/homebrew-tap)):
++
++```bash
++brew tap vergissberlin/tap
++brew install vergissberlin
++# or one-liner:
++brew install vergissberlin/tap/vergissberlin
++```
++
+ **GitHub Packages** ([packages](https://github.com/vergissberlin/vergissberlin-cli/packages)):
+ 
+ ```ruby
+-- 
+2.43.0
+
