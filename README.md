@@ -124,11 +124,11 @@ Git Config   23 mins         ▒░░░░░░░░░░░░░░░░
 #### [Personal blog][blog]
 
 <!-- HASHNODE:START -->
-- [Let&#39;s get serial](https://blog.andrelademann.de/lets-get-serial)
-- [What is pubspec.lock for](https://blog.andrelademann.de/what-is-pubspeclock-for)
-- [Custom ChatGPT with OpenAI API](https://blog.andrelademann.de/custom-chatgpt-with-openai-api)
-- [Custom fake data generator](https://blog.andrelademann.de/custom-fake-data-generator)
-- [Gamification has a lot of potential for companies! ](https://blog.andrelademann.de/gamification-has-a-lot-of-potential-for-companies)
+- [8 OKR introduction mistakes you don&#39;t need to make](https://blog.andrelademann.de/posts/8-okr-introduction-mistakes-you-dont-need-to-make/)
+- [Every Unused Token Is a Wasted Token](https://blog.andrelademann.de/posts/every-unused-token-is-a-wasted-token/)
+- [I&#39;m addicted to AI tokens](https://blog.andrelademann.de/posts/i-am-addicted-to-ai-tokens/)
+- [Agent Skills Need a Package Manager Too](https://blog.andrelademann.de/posts/agent-skills-need-a-package-manager-too/)
+- [Die Sterne Put Out a New Album and I&#39;m Glad to Be Listening Again](https://blog.andrelademann.de/posts/die-sterne-wenn-es-liebe-ist/)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
