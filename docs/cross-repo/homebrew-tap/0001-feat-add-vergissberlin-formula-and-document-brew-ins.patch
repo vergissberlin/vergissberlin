@@ -1,0 +1,75 @@
+From 9837dbf28adafd3507a691264f31a4937946d8f3 Mon Sep 17 00:00:00 2001
+From: Cursor Agent <cursoragent@cursor.com>
+Date: Tue, 28 Jul 2026 14:10:18 +0000
+Subject: [PATCH] feat: add vergissberlin formula and document brew install
+
+Ship Formula/vergissberlin.rb for v0.1.5 and document tap usage.
+---
+ Formula/vergissberlin.rb | 26 ++++++++++++++++++++++++++
+ README.md                | 10 ++++++++++
+ 2 files changed, 36 insertions(+)
+ create mode 100644 Formula/vergissberlin.rb
+
+diff --git a/Formula/vergissberlin.rb b/Formula/vergissberlin.rb
+new file mode 100644
+index 0000000..e50b3cf
+--- /dev/null
++++ b/Formula/vergissberlin.rb
+@@ -0,0 +1,26 @@
++# typed: false
++# frozen_string_literal: true
++
++class Vergissberlin < Formula
++  desc "This is a useless tool without any features! Trust me!"
++  homepage "https://github.com/vergissberlin/vergissberlin-cli"
++  url "https://github.com/vergissberlin/vergissberlin-cli/archive/refs/tags/v0.1.5.tar.gz"
++  sha256 "1875aa112154889ec836fd7c3bd3373eed9d2ac79d3e6acde050eabc23cb6c59"
++  license "MIT"
++  head "https://github.com/vergissberlin/vergissberlin-cli.git", branch: "main"
++
++  depends_on "ruby"
++
++  def install
++    ENV["GEM_HOME"] = libexec
++    system "gem", "build", "vergissberlin.gemspec"
++    system "gem", "install", "vergissberlin-#{version}.gem", "--no-document"
++
++    bin.install libexec/"bin/vergissberlin"
++    bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV.fetch("GEM_HOME", nil))
++  end
++
++  test do
++    assert_match version.to_s, shell_output("#{bin}/vergissberlin --version")
++  end
++end
+diff --git a/README.md b/README.md
+index dbd04bd..3a1efdb 100644
+--- a/README.md
++++ b/README.md
+@@ -11,6 +11,15 @@ brew tap vergissberlin/tap
+ brew install <formula>
+ ```
+ 
++Example — install the `vergissberlin` CLI:
++
++```sh
++brew tap vergissberlin/tap
++brew install vergissberlin
++# or:
++brew install vergissberlin/tap/vergissberlin
++```
++
+ Or, to install the latest development version of a formula, run:
+ 
+ ```sh
+@@ -22,6 +31,7 @@ brew install --HEAD vergissberlin/tap/<formula>
+ | Formula | Description |
+ | ------- | ----------- |
+ | [thinkport](Formula/thinkport.rb) | Informations about Thinkport GmbH |
++| [vergissberlin](Formula/vergissberlin.rb) | Useless CLI gem (`vergissberlin`) |
+ 
+ ## Contributing
+ 
+-- 
+2.43.0
+
