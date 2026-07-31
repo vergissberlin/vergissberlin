@@ -11,7 +11,6 @@ edit.
 | [`readme-feeds.yml`](../.github/workflows/readme-feeds.yml) | `0 3 * * *` | `MEDIUM`, `HASHNODE`, `STACKOVERFLOW`, `YOUTUBE`, `TTN` | – |
 | [`readme-codestats.yml`](../.github/workflows/readme-codestats.yml) | `20 3 * * *` | `START_SECTION:codestats` | – |
 | [`readme-wakatime.yml`](../.github/workflows/readme-wakatime.yml) | `40 3 * * *` | `START_SECTION:waka` | `WAKATIME_API_KEY` |
-| [`readme-github-activity.yml`](../.github/workflows/readme-github-activity.yml) | `0 4 * * *` | branch `profile-summary-cards` (SVGs) | optional `SUMMARY_GITHUB_TOKEN` |
 | [`lint.yml`](../.github/workflows/lint.yml) | on push / PR to `.github/**` | – | – |
 
 All four README / card writers can also be started by hand via **Actions →
@@ -47,8 +46,7 @@ end. `enable_keepalive: false` is required alongside `skip_commit` — otherwise
 the action falls into its keepalive branch on every run and makes dummy commits.
 
 **Staggered schedules.** The three README writers touch the same file, so they
-run 20 minutes apart at `:00`, `:20` and `:40`. The activity-card workflow runs
-at 04:00 on a separate branch and does not race them. They start at 03:00 rather
+run 20 minutes apart at `:00`, `:20` and `:40`. They start at 03:00 rather
 than midnight because GitHub's scheduler is heavily oversubscribed at the top of
 the hour and around 00:00 UTC in particular.
 
@@ -80,17 +78,3 @@ variable is present, regardless of its value.
 - The social icons in the README are pinned to `simple-icons@v3` on jsDelivr.
   Newer majors renamed `twitter` to `x`; verify each icon path resolves before
   bumping the pin.
-- The *GitHub activity* section no longer hits the shared Vercel hosts
-  (`github-profile-summary-cards.vercel.app`, `github-profile-trophy.vercel.app`,
-  and earlier `github-readme-stats.vercel.app`). Those public instances are
-  rate-limited or disabled and were serving `ERROR!!!` / blank images.
-  [`readme-github-activity.yml`](../.github/workflows/readme-github-activity.yml)
-  pre-generates the five summary cards (themes `github` + `github_dark`) and
-  both trophy SVGs into the `profile-summary-cards` branch via
-  [`vn7n24fzkq/github-profile-summary-cards`](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-  and [`ryo-ma/github-profile-trophy`](https://github.com/ryo-ma/github-profile-trophy).
-  The README embeds them from `raw.githubusercontent.com/.../profile-summary-cards/...`.
-  No marker block on the default branch — only `contents: write` on the cards
-  branch. Optional secret `SUMMARY_GITHUB_TOKEN` (classic PAT with `read:user`
-  + `public_repo`) overrides `${{ github.token }}` if a card comes back thin
-  (languages only); create it under **Settings → Secrets and variables → Actions**.

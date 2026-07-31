@@ -194,57 +194,6 @@ gantt
 		click emp6 href "https://thinkport.digital"
 ```
 
----
-
-## GitHub activity
-
-<!--
-SVGs are pre-generated daily into the `profile-summary-cards` branch by
-.github/workflows/readme-github-activity.yml (same card layouts as the old
-github-profile-summary-cards / github-profile-trophy Vercel hosts, which now
-return ERROR!!! / DEPLOYMENT_DISABLED under shared rate limits).
-
-Each card uses a `<picture>` so the theme follows `prefers-color-scheme`.
-raw.githubusercontent.com caches for a few hours after a refresh — that is fine.
-See docs/automation.md.
--->
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github_dark/0-profile-details.svg" />
-    <img alt="GitHub profile summary of vergissberlin" src="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github/0-profile-details.svg" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
-    <img width="49%" alt="Repositories per language" src="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github/1-repos-per-language.svg" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
-    <img width="49%" alt="Most used languages by commit" src="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github/2-most-commit-language.svg" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github_dark/3-stats.svg" />
-    <img width="49%" alt="Commit, pull request and issue statistics" src="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github/3-stats.svg" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github_dark/4-productive-time.svg" />
-    <img width="49%" alt="Productive time of day" src="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/profile-summary-card-output/github/4-productive-time.svg" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/github-profile-trophy/trophy-gitdimmed.svg" />
-    <img alt="GitHub profile trophies of vergissberlin" src="https://raw.githubusercontent.com/vergissberlin/vergissberlin/profile-summary-cards/github-profile-trophy/trophy-flat.svg" />
-  </picture>
-</p>
-
 [website]: https://andrelademann.de
 [blog]: https://blog.andrelademann.de
 [twitter]: https://x.com/vergissberlin
