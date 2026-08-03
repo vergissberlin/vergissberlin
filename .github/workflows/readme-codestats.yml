@@ -42,7 +42,7 @@ jobs:
           git config user.email 'vergissberlin@googlemail.com'
 
       - name: Update Code::Stats section
-        uses: vergissberlin/codestats-readme@6259fff7f6874911020b221a793c4ff301faa239 # v0.1.0
+        uses: vergissberlin/codestats-readme@cee8436b2638648c973f5b02b21cf10168cf6c9f # v1.0.0
         with:
           CODESTATS_USERNAME: vergissberlin
           SHOW_TITLE: true
