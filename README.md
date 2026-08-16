@@ -90,8 +90,8 @@ brew install vergissberlin
 <!--START_SECTION:waka-->
 
 ```txt
-Other      1 hr 52 mins    ██████████████████████▓░░   90.20 %
-Markdown   12 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.80 %
+Other      3 hrs 26 mins   ████████████████▒░░░░░░░░   65.59 %
+Markdown   1 hr 48 mins    ████████▓░░░░░░░░░░░░░░░░   34.41 %
 ```
 
 <!--END_SECTION:waka-->
