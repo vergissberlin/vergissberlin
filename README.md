@@ -90,11 +90,11 @@ brew install vergissberlin
 <!--START_SECTION:waka-->
 
 ```txt
-Other         31 hrs 13 mins  ██████████████████░░░░░░░   72.47 %
-TypeScript    4 hrs 14 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.86 %
-YAML          2 hrs 23 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.57 %
-Dart          2 hrs 16 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.29 %
-Markdown      1 hr 2 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.40 %
+Other         29 hrs 30 mins  █████████████████░░░░░░░░   67.85 %
+TypeScript    6 hrs 56 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.96 %
+Dart          2 hrs 18 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.29 %
+YAML          2 hrs 4 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   04.79 %
+Markdown      1 hr 23 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.21 %
 ```
 
 <!--END_SECTION:waka-->
