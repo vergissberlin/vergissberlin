@@ -153,11 +153,11 @@ Makefile    25 mins         ▒░░░░░░░░░░░░░░░░�
 #### TTN LoRaWAN network Leipzig
 
 <!-- TTN:START -->
+- [#038 Bastelrunde - Regenfass-Hardware: Vom Prototyp zur Feldtauglichkeit](https://www.thethingsnetwork.org/community/leipzig/post/038-bastelrunde-regenfass-hardware-vom-prototyp-zur-feldtauglichkeit)
 - [#037 Bastelrunde - LoRaWAN-Plattform skalierbar &amp; datenschutzkonform bauen](https://www.thethingsnetwork.org/community/leipzig/post/037-bastelrunde-lorawan-plattform-skalierbar-datenschutzkonform-bauen)
 - [#033 Bastelrunde - Admin-Dashboard für das Regenfass-Projekt](https://www.thethingsnetwork.org/community/leipzig/post/033-bastelrunde-admin-dashboard-f%C3%BCr-das-regenfass-projekt)
 - [#032 Bastelrunde - Event Driven Development](https://www.thethingsnetwork.org/community/leipzig/post/032-bastelrunde-event-driven-development)
 - [#031 Bastelrunde - Design System](https://www.thethingsnetwork.org/community/leipzig/post/031-bastelrunde-design-system)
-- [#030 Bastelrunde - Datenschutz und Datensicherheit in OpenSource Projekten](https://www.thethingsnetwork.org/community/leipzig/post/030-bastelrunde-datenschutz-und-datensicherheit-in-opensource-projekten)
 <!-- TTN:END -->
 <!--
 The TTN community page has no native feed. The RSS URL in
