@@ -90,10 +90,10 @@ brew install vergissberlin
 <!--START_SECTION:waka-->
 
 ```txt
-Other                41 hrs 4 mins   ██████████████████████░░░   88.31 %
+Other                40 hrs 59 mins  ██████████████████████░░░   88.29 %
 Terraform            1 hr 51 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.99 %
 Makefile             1 hr 31 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.28 %
-Terraform Template   1 hr 2 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.22 %
+Terraform Template   1 hr 2 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.23 %
 XML                  25 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.92 %
 ```
 
