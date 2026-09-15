@@ -137,11 +137,11 @@ XML                  25 mins         ▒░░░░░░░░░░░░░�
 #### [Personal blog][blog]
 
 <!-- HASHNODE:START -->
+- [The New Assembler Developers](https://blog.andrelademann.de/posts/the-new-assembler-developers/)
 - [Guilds Do Not Run on Goodwill Forever](https://blog.andrelademann.de/posts/how-to-keep-company-guilds-alive/)
 - [8 OKR introduction mistakes you don&#39;t need to make](https://blog.andrelademann.de/posts/8-okr-introduction-mistakes-you-dont-need-to-make/)
 - [Every Unused Token Is a Wasted Token](https://blog.andrelademann.de/posts/every-unused-token-is-a-wasted-token/)
 - [I&#39;m addicted to AI tokens](https://blog.andrelademann.de/posts/i-am-addicted-to-ai-tokens/)
-- [Agent Skills Need a Package Manager Too](https://blog.andrelademann.de/posts/agent-skills-need-a-package-manager-too/)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
