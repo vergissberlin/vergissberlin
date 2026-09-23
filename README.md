@@ -90,9 +90,9 @@ brew install vergissberlin
 <!--START_SECTION:waka-->
 
 ```txt
-Other       37 hrs 57 mins  █████████████████████▓░░░   87.26 %
-Terraform   5 hrs 20 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.28 %
-HCL         9 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.35 %
+Other       37 hrs 58 mins  ██████████████████████▒░░   89.77 %
+Terraform   4 hrs 7 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.76 %
+HCL         8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.35 %
 Git         2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
 Smarty      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
 ```
