@@ -90,11 +90,11 @@ brew install vergissberlin
 <!--START_SECTION:waka-->
 
 ```txt
-Other        23 hrs 42 mins  █████████████████▓░░░░░░░   70.98 %
-Terraform    5 hrs 21 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.03 %
-YAML         1 hr 14 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.70 %
-HCL          1 hr 7 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.35 %
-TypeScript   47 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.35 %
+Other        21 hrs 10 mins  █████████████████▓░░░░░░░   70.45 %
+Terraform    6 hrs 13 mins   █████▒░░░░░░░░░░░░░░░░░░░   20.74 %
+YAML         1 hr 8 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 %
+TypeScript   38 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.16 %
+PHP          16 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.90 %
 ```
 
 <!--END_SECTION:waka-->
