@@ -137,11 +137,11 @@ PHP          16 mins         ▒░░░░░░░░░░░░░░░░
 #### [Personal blog][blog]
 
 <!-- HASHNODE:START -->
+- [Why Amazon Blocks AI Shopping Bots](https://blog.andrelademann.de/posts/why-amazon-blocks-ai-shopping-bots/)
 - [Make No Mistakes: What Magic Prompt Phrases Actually Do](https://blog.andrelademann.de/posts/make-no-mistakes-magic-prompt-phrases/)
 - [When Switching Feels Like an Upgrade](https://blog.andrelademann.de/posts/the-better-alternative-makes-change-easier/)
 - [Why AI CEOs Warn About Extinction Risk While Building the Models Anyway](https://blog.andrelademann.de/posts/why-ai-ceos-warn-about-extinction-risk/)
 - [The Same Image, A Different AI](https://blog.andrelademann.de/posts/the-same-image-a-different-ai/)
-- [The New Assembler Developers](https://blog.andrelademann.de/posts/the-new-assembler-developers/)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
