@@ -137,11 +137,11 @@ JavaScript   20 mins         ▒░░░░░░░░░░░░░░░░
 #### [Personal blog][blog]
 
 <!-- HASHNODE:START -->
+- [What a VW Lupo and a Tesla Roadster Have in Common: CAN Bus](https://blog.andrelademann.de/posts/what-a-vw-lupo-and-a-tesla-roadster-have-in-common/)
 - [Why Companies Need an Agent Hub, Not Just a Skill Repository](https://blog.andrelademann.de/posts/why-companies-need-an-agent-hub/)
 - [Why Amazon Blocks AI Shopping Bots](https://blog.andrelademann.de/posts/why-amazon-blocks-ai-shopping-bots/)
 - [Make No Mistakes: What Magic Prompt Phrases Actually Do](https://blog.andrelademann.de/posts/make-no-mistakes-magic-prompt-phrases/)
 - [When Switching Feels Like an Upgrade](https://blog.andrelademann.de/posts/the-better-alternative-makes-change-easier/)
-- [Why AI CEOs Warn About Extinction Risk While Building the Models Anyway](https://blog.andrelademann.de/posts/why-ai-ceos-warn-about-extinction-risk/)
 <!-- HASHNODE:END -->
 
 #### Stack Overflow
