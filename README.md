@@ -1,15 +1,25 @@
 # Hi there, I'm André - aka [vergissberlin][website] 👋
 
-## I'm a father, developer, and consultant! 
+**AI Consultant at [Thinkport](https://thinkport.digital)**, helping companies put AI to real use, from strategy and use cases to running AI workloads on Kubernetes in the cloud. On the side I run **[kieks.me GbR](https://kieks.me)**, an AI consulting company that automates processes with AI agents and builds custom software. Father, maker, and 20+ years in software development.
 
-- 🌱 I am currently immersing myself in the depths of Observability. 
-- 👯 I'm looking to collaborate. 
-- 🥅 2026 goals: Grow with kieks.me GbR and improve skills on AI and Observability.
+- 🤖 AI strategy, AI agents and AI-assisted development
+- ☁️ Cloud-native platforms on Kubernetes for AI workloads
+- 🔭 Deep into Observability with OpenTelemetry
+- 🔌 Tinkering with IoT, LoRaWAN and embedded systems
 - ⚡ Fun fact: [Sigmund Jähn](https://de.wikipedia.org/wiki/Sigmund_J%C3%A4hn) was my neighbor!
+
+🏅 **Certified** as
+
+[![KCNA](https://img.shields.io/badge/KCNA-Kubernetes_and_Cloud_Native_Associate-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](#)
+[![OTCA](https://img.shields.io/badge/OTCA-OpenTelemetry_Certified_Associate-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)](#)
+
+### 🚀 Featured project
+
+**[CAN/LAB](https://canlab.andrelademann.de/)**: debug your CAN bus right in the browser with two ESP32-C3 boards. Live console, TX/RX diagram and load tests via Web Serial, nothing to install. [Source code](https://github.com/vergissberlin/example-canbus)
 
 ---
 
-🌧️ **I'm a Senior Cloud Engineer** having expertise in
+💻 **Languages** I work with
 
 [![Nodejs](https://img.shields.io/badge/node_js-339933?style=for-the-badge&logo=node.js&logoColor=white)](#)
 [![Typescript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
@@ -40,6 +50,7 @@
 🔭 And some **useful tools** like
 
 [![Kubernetes](https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](#)
+[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)](#)
 [![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
 [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](#)
 [![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)](#)
@@ -78,7 +89,7 @@ brew install vergissberlin
 
 [<img align="left" hspace="12" alt="vergissberlin | Website" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" hspace="12" alt="vergissberlin | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" hspace="12" alt="vergissberlin | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" hspace="12" alt="vergissberlin | X" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/x.svg" />][x]
 [<img hspace="12" alt="vergissberlin | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
 ---
@@ -174,28 +185,30 @@ gantt
 	dateFormat YYYY-MM-DD
 	title      Work experience André Lademann
 
-	section Freelancer 
-		NULLzuEINS Inh. André Lademann :active,  nze, 2007-03, 2026-12-31
+	section Employed
+		Thinkport, AI Consultant (main job) :crit, active, emp6a, 2023-03-01, 2026-12-31
+		click emp6a href "https://thinkport.digital"
+
+	section Side business
 		kieks.me GbR  :active,  kieksme, 2025-03-01, 2026-12-31
+		NULLzuEINS Inh. André Lademann :active,  nze, 2007-03, 2026-12-31
 		click nze href "https://nullzueins.com"
 		click kieksme href "https://kieks.me"
-	
-	section Angestellter
+
+	section Previous employers
 		Torpedo Leipzig : done, emp1, 2007-03-01, 2008-02-01
 		Freelancer      :done, emp2, after emp1, 2011-08-01
 		Digitalwert     :done, emp3, after emp2, 2013-03-01
 		Falk Analytics  : done, emp4, after emp3, 2013-09-01
 		Netresearch     : done, emp5, after emp4, 2023-02-28
-		Thinkport       :active, emp6, after emp5, 2026-12-31
 
 		click emp1 href "https://torpedo-motor.com"
 		click emp3 href "https://digitalwert.de"
 		click emp5 href "https://netresearch.de"
-		click emp6 href "https://thinkport.digital"
 ```
 
 [website]: https://andrelademann.de
 [blog]: https://blog.andrelademann.de
-[twitter]: https://x.com/vergissberlin
+[x]: https://x.com/vergissberlin
 [youtube]: https://youtube.com/vergissberlin
 [linkedin]: https://linkedin.com/in/andre-lademann/
