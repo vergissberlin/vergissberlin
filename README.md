@@ -101,11 +101,11 @@ brew install vergissberlin
 <!--START_SECTION:waka-->
 
 ```txt
-Other        20 hrs 18 mins  ████████████▓░░░░░░░░░░░░   50.44 %
-Markdown     13 hrs 31 mins  ████████▒░░░░░░░░░░░░░░░░   33.60 %
-C++          1 hr 41 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.19 %
-JavaScript   1 hr 30 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.74 %
-YAML         1 hr 14 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.09 %
+Other        25 hrs 8 mins   █████████████▒░░░░░░░░░░░   53.17 %
+Markdown     13 hrs 35 mins  ███████▒░░░░░░░░░░░░░░░░░   28.76 %
+TypeScript   2 hrs 8 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
+YAML         1 hr 53 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.01 %
+C++          1 hr 41 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 %
 ```
 
 <!--END_SECTION:waka-->
